@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 565023ee3b6f8d4439a9bd3a646110fc
+guid: ee5eb6cd54ac79a46b14521f91619d26
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 512
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pills_0
+      name: pannels_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 172
-        width: 49
-        height: 49
+        x: 17
+        y: 347
+        width: 261
+        height: 158
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c09e5eac9d5c6454ca79d400cf0d69e2
-      internalID: -1305065803
+      spriteID: e50bba1823edb7947a15c0ee4360267f
+      internalID: 2053381203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pills_1
+      name: pannels_1
       rect:
         serializedVersion: 2
-        x: 77
-        y: 172
-        width: 49
-        height: 49
+        x: 287
+        y: 256
+        width: 181
+        height: 239
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 970ef1eec3b12c14badf6a81f3e21e6c
-      internalID: 173829929
+      spriteID: 2af08b198664cee47930974399c61324
+      internalID: 1451804032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pills_2
+      name: pannels_2
       rect:
         serializedVersion: 2
-        x: 65
-        y: 26
-        width: 34
-        height: 85
+        x: 17
+        y: 312
+        width: 255
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abd99de3c8fd2e5478197dfe72ce6800
-      internalID: 983861322
+      spriteID: 4a82c17d6f6be83408e993c530a97d85
+      internalID: -1194194063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pills_3
+      name: pannels_3
       rect:
         serializedVersion: 2
-        x: 107
-        y: 26
-        width: 34
-        height: 85
+        x: 19
+        y: 144
+        width: 261
+        height: 155
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +200,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e970182856919aa4f87aeb192c6550ba
-      internalID: -1082312790
+      spriteID: fe950f2093d666f499863f3f0a32ecad
+      internalID: -262840337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pannels_4
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 68
+        width: 44
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288e909e794a90441815420789c787f8
+      internalID: -1319996400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pannels_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 75
+        width: 203
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d74da76efe469418975a59f1f66cad
+      internalID: -700584490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pannels_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 17
+        width: 230
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294e635d0df397846aa905cde6859873
+      internalID: -1103883350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pannels_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 18
+        width: 86
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16caaa9cc69ade418d766d9f8db8d9c
+      internalID: 380918306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pannels_8
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 18
+        width: 75
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4075c79b0e34a942bb3a9a8864b978a
+      internalID: 2036430515
       vertices: []
       indices: 
       edges: []
@@ -217,10 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pills_0: -1305065803
-      pills_1: 173829929
-      pills_2: 983861322
-      pills_3: -1082312790
+      pannels_0: 2053381203
+      pannels_1: 1451804032
+      pannels_2: -1194194063
+      pannels_3: -262840337
+      pannels_4: -1319996400
+      pannels_5: -700584490
+      pannels_6: -1103883350
+      pannels_7: 380918306
+      pannels_8: 2036430515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

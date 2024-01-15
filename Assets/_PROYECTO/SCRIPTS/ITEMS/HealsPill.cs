@@ -61,6 +61,7 @@ namespace VictorRivero{
 			if (collision.CompareTag("Player"))
 			{
 				HealthManager.Instance.ModifyHealth(_heals);
+				Destroy(gameObject);
 			}
 		}
 		#endregion

@@ -61,7 +61,8 @@ namespace VictorRivero{
 			if (collision.CompareTag("Player"))
 			{
 				StressManager.Instance.LessStressPills(_stress);
-			}
+                Destroy(gameObject);
+            }
 		}
 		#endregion
 		#region Public Methods
