@@ -8,7 +8,7 @@ namespace VictorRivero{
 	/// 
 	/// </summary>
 
-	public class PlayerController : MonoBehaviour
+	public class HealsPill : MonoBehaviour
 	{
 		#region Static Fields
 		#endregion
@@ -17,6 +17,8 @@ namespace VictorRivero{
 		#region Param Fields
 		#endregion
 		#region Private Fields
+		[Header("Heals")]
+		[SerializeField] private int _heals;
 		#endregion
 		#region Public Fields
 		#endregion
@@ -50,11 +52,18 @@ namespace VictorRivero{
 		{
 			
 		}
-            
+
 		// LateUpdate is called after all Update functions have been called
 		#endregion
 		#region Private Methods
-		#endregion            
+		private void OnTriggerEnter2D(Collider2D collision)
+		{
+			if (collision.CompareTag("Player"))
+			{
+				HealthManager.Instance.ModifyHealth(_heals);
+			}
+		}
+		#endregion
 		#region Public Methods
 		#endregion
 	}

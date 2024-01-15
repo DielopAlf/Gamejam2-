@@ -8,7 +8,7 @@ namespace VictorRivero{
 	/// 
 	/// </summary>
 
-	public class PlayerController : MonoBehaviour
+	public class StressPill : MonoBehaviour
 	{
 		#region Static Fields
 		#endregion
@@ -17,6 +17,8 @@ namespace VictorRivero{
 		#region Param Fields
 		#endregion
 		#region Private Fields
+		[Header("Anti-Stress")]
+		[SerializeField] private float _stress;
 		#endregion
 		#region Public Fields
 		#endregion
@@ -50,11 +52,18 @@ namespace VictorRivero{
 		{
 			
 		}
-            
+
 		// LateUpdate is called after all Update functions have been called
 		#endregion
 		#region Private Methods
-		#endregion            
+		private void OnTriggerEnter2D(Collider2D collision)
+		{
+			if (collision.CompareTag("Player"))
+			{
+				StressManager.Instance.LessStressPills(_stress);
+			}
+		}
+		#endregion
 		#region Public Methods
 		#endregion
 	}

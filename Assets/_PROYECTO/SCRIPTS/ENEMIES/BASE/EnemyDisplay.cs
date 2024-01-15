@@ -8,7 +8,7 @@ namespace VictorRivero{
 	/// 
 	/// </summary>
 
-	public class PlayerController : MonoBehaviour
+	public class EnemyDisplay : MonoBehaviour
 	{
 		#region Static Fields
 		#endregion
@@ -17,6 +17,8 @@ namespace VictorRivero{
 		#region Param Fields
 		#endregion
 		#region Private Fields
+		[Header("Enemy Base")]
+		[SerializeField] private EnemyBase m_EnemyBase;
 		#endregion
 		#region Public Fields
 		#endregion
