@@ -1,0 +1,7652 @@
+fileFormatVersion: 2
+guid: a0f6060170b737a4aaa7ba8d388c7dc8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 474
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c01c5c20a242f40b17c2ee75c2ddc0
+      internalID: 979935404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 474
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea686f98972daa44ba1dba265155ead
+      internalID: -1450526974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 474
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fd49428a8b5254d8d6120107fa48f6
+      internalID: -1320903132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 474
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cbdfffd0bf18a4e8651193da17766f
+      internalID: 1767100623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 474
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f85fc0b503c0f44a852307c21eb74ec
+      internalID: 1240522181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 474
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464c57745e6868649adcd665ade953dc
+      internalID: -1458862882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 474
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616b50f34aa0c6a4aa21ca51029689b9
+      internalID: 697628632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 474
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1268620cdbcba364bad2b9de5e9229d9
+      internalID: -348651558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_8
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 474
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2e6d31f4f129547963aedaa085fda5
+      internalID: -1347065524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_9
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 474
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4eb2ec0787d3a844a89dc4b1c606b3a
+      internalID: 2024587140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_10
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 474
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb34c025d36778541a9880e13ca2d5d8
+      internalID: -589973636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 474
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d30f825c8235b4488eeb75015769e1a
+      internalID: 1202198746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 474
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e02127dd8ad0f444a3bfef74c91fce8
+      internalID: -79265872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_13
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 474
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8658f408368909246a1607d3b3e42979
+      internalID: 1858130126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_14
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 474
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e1e1304c10b654dbbe1216c6de86ac
+      internalID: 1077698573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_15
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 474
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f578a18be8fa54896816f13bf5c404
+      internalID: -1171102093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_16
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 474
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d751265c55ba85408fe9a0cbc5b243c
+      internalID: 953781913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_17
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 474
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488e5d47097177a478ec34f25c966998
+      internalID: -261113486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92186363af55654b8821196f00085fc
+      internalID: -1429172371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_19
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 448
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8db4274b23e90c448ac0aac3245c596
+      internalID: -1148603995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 448
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e49746b064c5c049acb8e3997271415
+      internalID: 1033838676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 448
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c9c6fe41d970d4fa811033dd6c0da4
+      internalID: -695728397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 448
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2919ef073aa49f246bb533429e229626
+      internalID: 2070640974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 448
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1dfeae2a41afb46a4a56b4c40556d8
+      internalID: 330872057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_24
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 448
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fd1d6bc9fc09a49a35ec685e1c9f7b
+      internalID: -230400644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_25
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 448
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd952b24486f7d742a71a5822cea7233
+      internalID: 338100960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_26
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 448
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91aa3bdf6e221dc40881201b14f21030
+      internalID: -939779110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_27
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 448
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c783eda3d016b2b4fbbccf5427f1633a
+      internalID: 1162155448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_28
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 448
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddb8e09014d51a4684052d868f90d2f
+      internalID: 1855422893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_29
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 448
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451ec3d4c11b9324da8764bf2334fffd
+      internalID: -1769026717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_30
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 448
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c72c863ad1f204a972452ecf52f1f5
+      internalID: -1610813508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 448
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803f39b24feaf19459e78c54d49313c9
+      internalID: -1985366296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_32
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 448
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30deb8c0d77196448a0cfd1df13cb343
+      internalID: 124614509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_33
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 448
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1c74102c0539845b062916d2e3d1b1
+      internalID: 1728301523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_34
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 448
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93cff8a000fa0243bef80a4707a5350
+      internalID: -1937066893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_35
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 448
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab638363dc17ca24bb4499ccf23c9d77
+      internalID: 49223367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 421
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cdecab4b2f1f745b4ac5eefa1446b7
+      internalID: -1989374816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 422
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1665ae48a1ef4454ba724bc46a75c0d0
+      internalID: 423132422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_38
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 422
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d976eb26c75776489c3a97297f1963c
+      internalID: -1729944950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_39
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 422
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a51fef69cd5a349baa887844cac514
+      internalID: -1133365126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_40
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 422
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd871614ba0fe34f8547d07d48f421a
+      internalID: 1585329690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_41
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 422
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f36409f60df0248a44f64481b185f3
+      internalID: -1044289476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_42
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 422
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775d4cbed5f62e046a8e3738ef9efeb6
+      internalID: -1937801498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_43
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 421
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf8eb84c6c8b084ab263b1b95542a0b
+      internalID: -2107770076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_44
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 422
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d5cae7e965ce54e9db583a2bbce98c
+      internalID: 1496154624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_45
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 422
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d6054567f3f2b4599e4ea2116fcda8
+      internalID: 836516073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_46
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 422
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4be953c407b264091cadb3f918c7c9
+      internalID: 221752339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_47
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 422
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf51d8706ce89bc4983ca0d4f39d4c01
+      internalID: -1782061776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_48
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 422
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f82d8fb878e7824ba5a4bf49e2fd87a
+      internalID: -1263132988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_49
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 422
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9f35cf495f1e34eb6e8e0cf2494e2d
+      internalID: 680012370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_50
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 422
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c8ba3c4a9b2464389e7d054f9f7f5d
+      internalID: -1657137404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_51
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 422
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36de236cd98aaef4984fc6df1df99eb9
+      internalID: -663615922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_52
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 422
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390d6b56abb754949a1cd37ef5380f7f
+      internalID: -1690817377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_53
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 422
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab9a580aff2bfc4694c01265b070128
+      internalID: 2088164224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 396
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72038420b0fd347409d6995ff5fcb373
+      internalID: 1703135743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_55
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 396
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392790c0e49d06f439bfc5a6aa6bb784
+      internalID: 1450077524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_56
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 395
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0d4830df576db42a6f350de0bba9a3
+      internalID: -2109214869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_57
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 396
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dd24f3d0c7a8e408f687b01fe6ef25
+      internalID: -250109349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_58
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 396
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18e59fdd53022e4bbdd12d5baebb331
+      internalID: -2074441720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_59
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 396
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb04f6eebbdad740a8d111e0fe2aac7
+      internalID: 2016201836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_60
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 396
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16ac2bf7fec7c74d81fa3276765ac18
+      internalID: -630147831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_61
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 396
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302db0ec1e2df2742be4ddd89fc1249d
+      internalID: -1493841931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_62
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 396
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6225a415816ab34bb8dd921617125d8
+      internalID: 1367514442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_63
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 395
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebb50b86cff05641aff60572f1284b3
+      internalID: 1084317243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_64
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 396
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff8802c4a535464c99036816e25868b
+      internalID: 544811900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_65
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 395
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77abc1baad6f5c344a4224576bf2fdf6
+      internalID: -1915670829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_66
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 395
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb07a46b737bde4a8e3f4be39ebd97c
+      internalID: -577171435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_67
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 395
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b958acfb23db144a9efcc9fd8469c2b
+      internalID: 216002169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_68
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 395
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a13f99791f9b5240b48933056fc5236
+      internalID: 926112992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_69
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 395
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1692a7e452f3a6f42a33e4c5678bdc38
+      internalID: -203032588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_70
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 395
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7536584a7270b49b1670fb03816286
+      internalID: 384023895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_71
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 395
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eb32d09389aa64b8dc87e9881cf85f
+      internalID: 2015754979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525abb3522a53004aa6845720a462a9e
+      internalID: -1001340727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_73
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 369
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de74657fa9bc51a449141cb231a0fb7c
+      internalID: 1899791636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_74
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 369
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce94bdd3dae5ef34d8f11c521681652f
+      internalID: 2107797169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_75
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 369
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70504737d583a5748b017ba9326306d1
+      internalID: 243778269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_76
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 369
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63623a47c043cf64c820406b5d9cbaa4
+      internalID: 1226957595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_77
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 369
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dddf0da880a1e40983c2e71a4d3897
+      internalID: -1873541115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_78
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 369
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d264817d165b19c47894139de5a2de70
+      internalID: 1598487581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_79
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 369
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2a268ffd7784b4fb5d7bd309c33631
+      internalID: -1237219068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_80
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 369
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023ad8b372a281744a1495f364543f3c
+      internalID: 1784297525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_81
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 369
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f07fff0df8496438be31ba54c29684
+      internalID: -555790161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_82
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 369
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b771d0a1a310149bb43eb398341d36
+      internalID: -1627406314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_83
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 369
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24da6020c22391e4cb30f19b331019df
+      internalID: 2057937769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_84
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 369
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d9d01336970b948a942d57e224af56
+      internalID: 1231802858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_85
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 369
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a774c4ec37de0f74e95229f224c265ea
+      internalID: -935764747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_86
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 369
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7673b819ba42145a23e9d77610ce60
+      internalID: -1322782962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_87
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 369
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2beab755a59314ab52ff25aa1f671f
+      internalID: -1927225945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_88
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 369
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c6bc20190ea01449f5fe8511bf8510
+      internalID: -413914055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_89
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 369
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d05754e37d5974bb44a98baffd734d
+      internalID: 1006417532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 343
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c5118d588a5db4591bc29cab23d100
+      internalID: -1515402478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_91
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 343
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca228abe01748a408cd4a3755f35457
+      internalID: 785391299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_92
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 343
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351903ef56ef4c447b5a05c3222183a2
+      internalID: 526472155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_93
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 343
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f926b3b02a3ce248b1b3b7f0091ba60
+      internalID: 1611582871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_94
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 343
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746e66929d4f040409486c08f203e97f
+      internalID: -1322446099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_95
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 343
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aedd2243b93c04dab4ae262ffa6bac
+      internalID: 811263178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_96
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 343
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856edcbab10548a4d96f5b25e0d5c3ad
+      internalID: 220297308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_97
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 343
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb10ba96261db85468976de90e867df4
+      internalID: -1798203073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_98
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 343
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb931f17368d66488030ea43cb4accc
+      internalID: -228749311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_99
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 343
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e7ad2b37110054092486e0ae0a92d7
+      internalID: -530137162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_100
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 343
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece600ba14f6fd04a8fb28f1fcbe6a9d
+      internalID: -1305499518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_101
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 343
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309d1aa09d0405141b2fef43af57c8da
+      internalID: -2109326703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_102
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 342
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b115452cab618f6469664f0efc12b321
+      internalID: -870041980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_103
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 343
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c2ddfae374dd5468b327aaa4db3657
+      internalID: -214198868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_104
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 343
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b80c1aca86c28448b34ea6fa5580d7b
+      internalID: 2104764823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_105
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 343
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6f2fd571a1b6f429decc630459adc9
+      internalID: -342828512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_106
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 344
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50ef95acca9fd54d9f03563fd542dea
+      internalID: -1783986819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_107
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 343
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab0c5993246bd049a1d462c81e4d7d9
+      internalID: 223588002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 317
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ff0c607aa00e34baf14f15e8e90715
+      internalID: -364726316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_109
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 317
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5565402098beb845a3a567b760f97f3
+      internalID: 2050123337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_110
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 318
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cddd01b23a4e74682c03a52f8e0ff4
+      internalID: -1352654610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_111
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 317
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde1205eb2cec3e44a846ef532742bd1
+      internalID: -127437009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_112
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 317
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d5ce38c86e29b41a0286bb8b4cb452
+      internalID: -15831181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_113
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 317
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0cfaee131d40e40896cdd4d9ba34df
+      internalID: 1201635196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_114
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 317
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bd2eeb64128f343ac03ab78495124d
+      internalID: 1532641295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_115
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 317
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09e1349cc9de104ca5064d64f04effe
+      internalID: 1125965432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_116
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 317
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c1683caa030b04580af63087bab567
+      internalID: 1764810831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_117
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 318
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b988ceed214578f46afc03f87a9501c6
+      internalID: -551766876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_118
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 317
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8403c53b63cf544ca495e49da15ece6
+      internalID: -226222475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_119
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 316
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9c5cf03e436df4686589c040df2af9
+      internalID: -1745803311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_120
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 316
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3487cc7c11e5381478d5a1fcf01dbedf
+      internalID: 1714969642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_121
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 317
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0284cc83b356cd347b87e035fb51d349
+      internalID: 1130991223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_122
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 317
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888157bca31600f41852bbedfa27682d
+      internalID: -1888883456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_123
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 317
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0537b7a3acc1fec44b2a86713da6878f
+      internalID: 1398302397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_124
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 315
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f30e7e1bfe2a9c4aaaad34013e131d8
+      internalID: 1935267129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_125
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 315
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b48945c338e3a48a73050174456499
+      internalID: -213755736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae4fd52de698b24999f9f0c5d7a799b
+      internalID: -774597729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_127
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d1967e42097784992ae967fa4a5cec
+      internalID: 626105859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_128
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330637bf020d15b4c9d22eaad7804b1f
+      internalID: 105276950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_129
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5b6c8161f6f72499f44cd09a9d9ad8
+      internalID: -981738802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_130
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99065a12131001945bfc3d5234ad1632
+      internalID: -1612453922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_131
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbf1c0185aa25f4db321e7ba55bd08f
+      internalID: -62740441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_132
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f292e93b8103664fb89c86d3754e9df
+      internalID: -1110062082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_133
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b4e7512d0cffc47bf4fcf291ae9c40
+      internalID: -1781287008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_134
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8478076824981b4f9422580e678b16e
+      internalID: 620889003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_135
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4e0adb327c1374cbc72fdc3b0954cc
+      internalID: -668371233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_136
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93cd4d6d980beb44ba14a8b267b242a
+      internalID: 935920151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_137
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb21c0bc08f2eb049aeb06aa151a92c6
+      internalID: -84034208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_138
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f3947eaaaba2745867b395f26f73f1
+      internalID: -914706384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_139
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632af3c394bef6a4b91356bfc6db7327
+      internalID: 2068870716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_140
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c3ba7a9a1bf014cbfeed2d93d260dc
+      internalID: 902754417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_141
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7593f53f5aeed64a8e471e85d73f993
+      internalID: 319673842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_142
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a753e3b42f40cb14fa0fbc72520fc9b6
+      internalID: -2128078074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_143
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 293.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fd38c683ea03a43a7440e628d1f70b
+      internalID: -2085500641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e56e0e48b8dbc4caca371eaf1bf63c
+      internalID: -1240132603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_145
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0addced9c4ed16b4cafbb25235943d5e
+      internalID: 2021456579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_146
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ebb718af039684eb615290571ca7b3
+      internalID: -553383645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_147
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8534f6640fd4d43b00fdeb12cfe28b
+      internalID: -902587881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_148
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abfe1e58be3df948b891a7af57ecef8
+      internalID: 1370327568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_149
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff95278ed1e3618409f92e7f16e74410
+      internalID: -1935711697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_150
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1c74752d0a78842ba4b2325a802867
+      internalID: -727852461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_151
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32112cd0cbe15b4d9270bb126dc0dfa
+      internalID: 1806275616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_152
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69826499c32522b4594bd6d8a69cec9b
+      internalID: 1668470025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_153
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cba9a82f64dd847809354bff95244c
+      internalID: -109245197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_154
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b530058eee5f074bb6d6e267196154f
+      internalID: 484862648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_155
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b4ff103c010754ab05222c58a403d3
+      internalID: 1791876448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_156
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965873b24828bc946a33a76809d16cde
+      internalID: 1116012015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_157
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f468637ad2eb843a88954adeea688c
+      internalID: 841636920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_158
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fc8ca568bbc8f4fa63a1bbea608d5b
+      internalID: 1023981573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_159
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4304b41298fbf534e85a2297124d63ef
+      internalID: 993903418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_160
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cdf05a790d5eb4e9f86c9250608a27
+      internalID: -1247458514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_161
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 267.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0415ad575604e69418a3c03c52387830
+      internalID: -303185595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c293a1bf0ba5e4ca4026e4fdd3a046
+      internalID: -1987830813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_163
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2ffcccde9b7824b83796d5a3b6c3ab
+      internalID: 574871926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_164
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b321797f5235c2a46baff7b89df67991
+      internalID: -863928051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_165
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1562c042ae55f504582f0731ff230eb3
+      internalID: -1157864631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_166
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952323399b314a442a96762a3edc44e6
+      internalID: 723435445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_167
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481b2d421ee7a2b4b9342e6c00e872fa
+      internalID: -890071614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_168
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c57ce825dc4204a9936f501b56c1a8
+      internalID: 1480532269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_169
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc44afd3637613e488b994bd99916461
+      internalID: -437586053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_170
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f23f2d971616242b994e54e7ab7d0e
+      internalID: -1625085916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_171
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf05eeb6c77371d41a5de560e0324466
+      internalID: -1607109760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_172
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55323f354b1ee4c419366dcd4e8dbdbc
+      internalID: 80841364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_173
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a8748d6f6b93a46bd4b1869e98ac50
+      internalID: -1742095124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_174
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9165387ac53f3014c92e4f59ad78be31
+      internalID: 1565762911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_175
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c0469bdb819cf409aefa83409a9853
+      internalID: 647930064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_176
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06ab1906ad9c4a41b9b9f12235830b2
+      internalID: -134127368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_177
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6075b131751564a41a84034074010a5d
+      internalID: 648416851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_178
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73973012d2d8564793f874f26cd7414
+      internalID: -862253579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_179
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 241.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4140265c5bd109f4eae1f3e72c5d9928
+      internalID: -510807819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6fb9b04caa88f498dcd6d9c0ab7f3b
+      internalID: -578150203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_181
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfe58b6eea691949bdf4262d96457ec
+      internalID: 1496048664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_182
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388710e42b564164da102e345b20efb2
+      internalID: -1706605255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_183
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95da0b60d2d7e1f4ebd5101394b2defe
+      internalID: -1257610121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_184
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66c74abb16e5fd42bc29c4c2cb12551
+      internalID: 2126845882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_185
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2814c7df44e9d499266c6b4b9993de
+      internalID: -1585866692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_186
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e96eea30cb7f23468b2bf58ee5bb367
+      internalID: -1458830483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_187
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4c635eea287f6488cbbcee78824d25
+      internalID: -1509129786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_188
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a34aba417d6d7949bfbe5ee38221521
+      internalID: 614804823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_189
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37048b62a821324cab8becb86b12f56
+      internalID: 1915224154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_190
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e525ae8d6a741b49b2371fea0434042
+      internalID: 379599727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_191
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc17928504892b4899baf18b3737f5f
+      internalID: 57107309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_192
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e98e27cf777c0240a2b1d26b3d9d597
+      internalID: 311992532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_193
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d849b223c2b38d042a43b584c61d9412
+      internalID: 1150201451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_194
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10ab43c6cb9ac4408478c50d318ac0f
+      internalID: 130862857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_195
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc25d8c05cf5004f8b9780e6d696db1
+      internalID: -1665492176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_196
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff7407e2f42e88459cc6b0d37fdda10
+      internalID: 261017498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_197
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 215.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39288cd31c074cc46b550b4f1a92ea1f
+      internalID: 1066895561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_198
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3270e900ef382bb4d8655a45e014356b
+      internalID: -1782012346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_199
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed568d2bbee999247bb546954b3e21ab
+      internalID: 41522770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_200
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7619914aba04b4eb6df359b7c84207
+      internalID: 1054671646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_201
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2165ae9803bdbb74e905d0dd107d6bbf
+      internalID: -1392389603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_202
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326bf6097f3e89b4fb0e90cd4f4922a5
+      internalID: -151548553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_203
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71dd2e836ebb96429d6bcac3abfed68
+      internalID: 873339104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_204
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ea899f9475142448edb7fa899fc6ca
+      internalID: 316910201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_205
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969403c972757304f87a69041062ab78
+      internalID: 1445881728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_206
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b334fcf66bcfb4b8f8960d1daaf0bd
+      internalID: -1800568884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_207
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6d4067f1d4b9c4a969df25dbe35ea3
+      internalID: 1674801993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_208
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10948b3afd566447946f41f4032082d
+      internalID: -549742114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_209
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc09195d8375604884c2a1a49e54577
+      internalID: 1288318019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_210
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc463e307c14ecd4da82590bdde904ce
+      internalID: 1466869474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_211
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0099ee9a375fd84ab76140807d9f619
+      internalID: -291804775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_212
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d27bb7e6196b04991b3c1b9219f9b5
+      internalID: 726555596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_213
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac449ea944473674d9ab31d610f4b573
+      internalID: -1741708234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_214
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5b5b7de2d3cfc479903eaf2e5c4a1a
+      internalID: 1514445087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_215
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 189.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721d2c81bd742104bbe7de57d4d4eaa8
+      internalID: 557890834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917cd7423efd6c64cbe4ff3e7e35b0b7
+      internalID: 1560143565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_217
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c200b9da4ec344caab7ad79bc2114a
+      internalID: -1619094196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_218
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8755ba9e17f42a64b8605881984c0979
+      internalID: -875092657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_219
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703a2b1dc3686d74d92cc8f87f6a08e4
+      internalID: 736648857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_220
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4635eeff3ebd2d04a8b1d0cc96255fba
+      internalID: 132594020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_221
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88995dc2f137b39468374748b2749939
+      internalID: 69827970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_222
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103fe7d85cf4e704bbf323caf3009a98
+      internalID: 1686044232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_223
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a576a5829f25534448e7e950e3eda01d
+      internalID: -26685743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_224
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4b5f9d50f6085458d8da837563f62f
+      internalID: 1834264562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_225
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a303dcdbf5975b41adbc7ea1a6357d6
+      internalID: -1225375732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_226
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4219f2111c10e744492b2b59db9e22b6
+      internalID: 528893820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_227
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27e5672da2921e4fab4bb39df9dab6c
+      internalID: -524802431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_228
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672a17f83bfb6324999941098fe3bedf
+      internalID: -1568291384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_229
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd5557b31f84164b8a63b6919ec71bb
+      internalID: 1539313644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_230
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2119e4820381e5e44b816a3d7875447b
+      internalID: 617018601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_231
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f54ac8db8e334847b72214d39f603a7
+      internalID: 1443321446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_232
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27c9b2b69a350d4782946c105f0c41c
+      internalID: 1312950859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_233
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 163.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bf9efabfda48241ac6ebfebdef5717
+      internalID: -410991496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_234
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dea8d923b23b747b58e48b22957391
+      internalID: -1779206229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_235
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95df35d3937c6e743866cb484aad4c22
+      internalID: 953160295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_236
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52672a77ec02e749b166f438e0676a7
+      internalID: 669967808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_237
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72ee89f8dc613b47b3df5ab482c6546
+      internalID: 722639548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_238
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb90e59a7da83a44a898914be31d803
+      internalID: -2063040707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_239
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f860981d30104244885efccacece4a4
+      internalID: 1816408427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_240
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27366ae91dbf0c54d9c5441ea829c326
+      internalID: -1647543856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_241
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5e930362e0f914b901ee6fe22587ed
+      internalID: 1376829540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_242
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fbade965a2c52418503f5b8aa2fa47
+      internalID: 1907197311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_243
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d2af529ed9e964b95efb6a3805d92c
+      internalID: 944222384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_244
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae5ba993b2393944be024c23e7b7bfc
+      internalID: 128689640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_245
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a46b70d579d674fba595e2c0df868e
+      internalID: 2043294039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_246
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61e3abf19e4ba94fa966ce3bd9432df
+      internalID: 1538085946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_247
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953ddce79e8f5c646bba201648e2a8a4
+      internalID: -1595000506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_248
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8200e0822b69043bbf3401ea1db1f9
+      internalID: -1600994020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_249
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2d8d183c5d5504485506f3075329dc
+      internalID: 1172715110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_250
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d23f5a7616e9a6428d2ed253c95affa
+      internalID: -1111695908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_251
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 137.6842
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a221087c8a6db428ad0c131b98f43d
+      internalID: 207950317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_252
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1741629b28b524389fe62a1da34b32
+      internalID: 167261365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_253
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5935996086d2a9649962073e471be261
+      internalID: -1248792456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_254
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a70bb5446e7ac44ab4e5f621045e949
+      internalID: 791065155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_255
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041807bd1546ab446b79c65bb1bd7289
+      internalID: -205440396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_256
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebe7d3d40f8f7140b6afd8e5a02bb71
+      internalID: -1279026324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_257
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7945bc389ac10c49816c991607020f1
+      internalID: 1609613682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_258
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d0f88d073676b4e9a09511f68fc22d
+      internalID: 1184731836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_259
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5d2d4a907f51d4ea1a9034934d8a94
+      internalID: -995486244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_260
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53ebca7f46ada1479d781bf468fef95
+      internalID: 330449182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_261
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071cb7148c8a3ab40aeb7c77355706c5
+      internalID: 763615755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_262
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7cddc0ac203994d856c0f2e187fd39
+      internalID: -1596593448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_263
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9c222d39cecd94ebc346b1845d88c2
+      internalID: -2107446681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_264
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf608c56548ada4086b1548d4f23aa7
+      internalID: -940406301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_265
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb20cc1ff4018e42940583ac7a09e1d
+      internalID: 561816764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_266
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3f54f7e776034428fbbc76289806a9
+      internalID: -1578353046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_267
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386017047ce9b554887b6487ecd07932
+      internalID: -611452666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_268
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa27ebec2f4957429fdf0c239faf6e5
+      internalID: 1301346994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_269
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 111.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19453f1792effd429557099fd2e0111
+      internalID: -1912735576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_270
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4331332bcc1404194f726445c1100e
+      internalID: 10446495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_271
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d2b57aab35559409dd7726f36199f8
+      internalID: 2034385997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_272
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90d461c4a347f94eb9ee81e59de55d4
+      internalID: -689226539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_273
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f2c95ad3fed204b932f5753263680c
+      internalID: 1956796727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_274
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6c751f006aa03419d1cafbc6f68566
+      internalID: 1955515142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_275
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b36c02c2d64934d951787990a4a907
+      internalID: 1605794157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_276
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887fc308326c766499004eb90c17f319
+      internalID: -693027938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_277
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71acacd1a4e5f004c913e4eb775da56e
+      internalID: 779830346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_278
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b68aba81e81e5e449dfca8408b2cf5a
+      internalID: -815355969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_279
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe577d4eccee9e4682ad38290947c45
+      internalID: 1036467732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_280
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d77948af5860ad4698eb6c3f6fa3c39
+      internalID: 2065731791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_281
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7be480464cc5f4dac0371fbaaf8014
+      internalID: 887611063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_282
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f68b691484ec714cb1f1853244835bf
+      internalID: -2011444526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_283
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a55af853b651a418920da4ba4bce81
+      internalID: 370118256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_284
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab486aea26a9984798130e7e5c7820c
+      internalID: 1075448855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_285
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c383e47d26f900b4aaa93da952ca6609
+      internalID: 1507890985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_286
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fefb387d1e69954e854c4e9abc9956f
+      internalID: 1186329679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_287
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 85.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7dd84f2ad9ca74dadc3cada4fac335
+      internalID: 938760101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_288
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e944efb8653d58845b19222aeb4a4565
+      internalID: 354965087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_289
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9b133726387404f91fb62260081629
+      internalID: 2036597268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_290
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bc5fd088a045a43a9e2ebd1335a415
+      internalID: -922056807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_291
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b50ef6bee8e51418f4319f125ca3c8
+      internalID: 762457024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_292
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217ee91330621c1438eaf92d62bfe587
+      internalID: -326701576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_293
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0d5e1e9641fba4ebefa808f3bc3fa7
+      internalID: -92596467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_294
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3836584bb5eca204187ea279768bc1b5
+      internalID: 581579918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_295
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f1247d395a84a4abbdb6f4f8db305e
+      internalID: -2041347580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_296
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe056ac03d99cbb42b6914894bbdcd0a
+      internalID: 2075168430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_297
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f618305da4897884b9cbbead570ff0e6
+      internalID: 177028995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_298
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8301410b5a1c07f46a5b627646731d3a
+      internalID: -1183330665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_299
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6835703c0d24d49816c3eaa1122394
+      internalID: 554298444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_300
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3679824c40ee74aadf4873639bc7e8
+      internalID: 1775232626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_301
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873c1cfe9bf32f747b8709bbc7cb0c5c
+      internalID: -1422082258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_302
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b04f1a1cb62664bbd4344a9a163374
+      internalID: 607393699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_303
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeda5b5c3ab30124b8ef47710ee6d8c6
+      internalID: -1504733678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_304
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2a877d5f7b5a74aae77f3eeea8e1f0
+      internalID: -1136712218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_305
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 59.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11141160f6619094db76b390ae469a9b
+      internalID: -1339868511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_306
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c4d489f32de9c42901e96b13e95cab
+      internalID: -1398915381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_307
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec4b5308c0fc994e8c82289f13619ad
+      internalID: -20978863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_308
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68132b9972944914c8c4db1e72b863a2
+      internalID: -27298398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_309
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d9e1ee68a645a4cafb712d394bb92c
+      internalID: -1990309507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_310
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a21f27ca99be446b39fa53020a31b6
+      internalID: 705457299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_311
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647732163d347c841969a51b1b985a9d
+      internalID: 2051225401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_312
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547b232d938543540b18251fbd055a77
+      internalID: -510461293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_313
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500580a00757355419eaa6fd7ead6a51
+      internalID: -1357611749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_314
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2caf3b9b3cf5f045937664c83139d19
+      internalID: 119211877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_315
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e2ba69c22046b4cb7a707b06947928
+      internalID: 228230615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_316
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0aee2feac2a48741ae0f2d716ddb37f
+      internalID: 846514450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_317
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a67d743dedcb8a4f96964900b6f471e
+      internalID: 1005306836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_318
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1deed40524fa43744b0fe898937382e4
+      internalID: -1984267006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_319
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5314f7f6d4d18e74289ef458f29c4b70
+      internalID: -1503092903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_320
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45835a6cb5078c44f844712191625385
+      internalID: 711207413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_321
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e05f12c69b0272458b044434aa411ca
+      internalID: 1754038238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_322
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448729be54a17164999d2766282ff457
+      internalID: 896270486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_323
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 33.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7f7e924ae89784ea2c44b345383c8e
+      internalID: -1462098636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_324
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded4a36f21cbddc4f807f17a1f0ae5e9
+      internalID: 194217569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_325
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25ddf2d588081047b5fddb22c8b6e1c
+      internalID: -330008510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_326
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652d743d1f3370e4787936ad7db3cd64
+      internalID: -1559730621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_327
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae46f325f049e2845888166f86569f66
+      internalID: -1856900364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_328
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6149bf9b83de3e147b1fab9a98b3b1fe
+      internalID: 275814796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_329
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dac7c89c5febf4b8d22f6bfba67030
+      internalID: -825393879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_330
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6363fa70a445d45a7ac1f027c15ee2
+      internalID: -280603618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_331
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ef5ad670114c9468458f091960338f
+      internalID: -841846974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_332
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0025e9cdbde7b0a48a8ca5bd308d239f
+      internalID: -911708088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_333
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7f4268ef9d7a5459b47e1957b2debf
+      internalID: 1262237622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_334
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e55772b43d052b4481e1807fa8b14e5
+      internalID: -1835150854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_335
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2a8406679b1bf4fb3e91132f7112ed
+      internalID: -851804241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_336
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11df74fb719ed24d805d2daf39bc2ac
+      internalID: 795022270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_337
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26828b0fa72c8f4e9d26d33d77068e4
+      internalID: 1942238349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_338
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89e14ae0d7a8514292792cea9ecc17b
+      internalID: -1717648490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_339
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41002978f87240441baba0f6febb00ec
+      internalID: -933541175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_340
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d4944663301254aa649d7589084776
+      internalID: 1138998239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows XP_Icons_03_341
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 7.68421
+        width: 26.277779
+        height: 24.31579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbd8978d59170f438a4bb0d1745ee70
+      internalID: -599301264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Windows XP_Icons_03_0: 979935404
+      Windows XP_Icons_03_1: -1450526974
+      Windows XP_Icons_03_10: -589973636
+      Windows XP_Icons_03_100: -1305499518
+      Windows XP_Icons_03_101: -2109326703
+      Windows XP_Icons_03_102: -870041980
+      Windows XP_Icons_03_103: -214198868
+      Windows XP_Icons_03_104: 2104764823
+      Windows XP_Icons_03_105: -342828512
+      Windows XP_Icons_03_106: -1783986819
+      Windows XP_Icons_03_107: 223588002
+      Windows XP_Icons_03_108: -364726316
+      Windows XP_Icons_03_109: 2050123337
+      Windows XP_Icons_03_11: 1202198746
+      Windows XP_Icons_03_110: -1352654610
+      Windows XP_Icons_03_111: -127437009
+      Windows XP_Icons_03_112: -15831181
+      Windows XP_Icons_03_113: 1201635196
+      Windows XP_Icons_03_114: 1532641295
+      Windows XP_Icons_03_115: 1125965432
+      Windows XP_Icons_03_116: 1764810831
+      Windows XP_Icons_03_117: -551766876
+      Windows XP_Icons_03_118: -226222475
+      Windows XP_Icons_03_119: -1745803311
+      Windows XP_Icons_03_12: -79265872
+      Windows XP_Icons_03_120: 1714969642
+      Windows XP_Icons_03_121: 1130991223
+      Windows XP_Icons_03_122: -1888883456
+      Windows XP_Icons_03_123: 1398302397
+      Windows XP_Icons_03_124: 1935267129
+      Windows XP_Icons_03_125: -213755736
+      Windows XP_Icons_03_126: -774597729
+      Windows XP_Icons_03_127: 626105859
+      Windows XP_Icons_03_128: 105276950
+      Windows XP_Icons_03_129: -981738802
+      Windows XP_Icons_03_13: 1858130126
+      Windows XP_Icons_03_130: -1612453922
+      Windows XP_Icons_03_131: -62740441
+      Windows XP_Icons_03_132: -1110062082
+      Windows XP_Icons_03_133: -1781287008
+      Windows XP_Icons_03_134: 620889003
+      Windows XP_Icons_03_135: -668371233
+      Windows XP_Icons_03_136: 935920151
+      Windows XP_Icons_03_137: -84034208
+      Windows XP_Icons_03_138: -914706384
+      Windows XP_Icons_03_139: 2068870716
+      Windows XP_Icons_03_14: 1077698573
+      Windows XP_Icons_03_140: 902754417
+      Windows XP_Icons_03_141: 319673842
+      Windows XP_Icons_03_142: -2128078074
+      Windows XP_Icons_03_143: -2085500641
+      Windows XP_Icons_03_144: -1240132603
+      Windows XP_Icons_03_145: 2021456579
+      Windows XP_Icons_03_146: -553383645
+      Windows XP_Icons_03_147: -902587881
+      Windows XP_Icons_03_148: 1370327568
+      Windows XP_Icons_03_149: -1935711697
+      Windows XP_Icons_03_15: -1171102093
+      Windows XP_Icons_03_150: -727852461
+      Windows XP_Icons_03_151: 1806275616
+      Windows XP_Icons_03_152: 1668470025
+      Windows XP_Icons_03_153: -109245197
+      Windows XP_Icons_03_154: 484862648
+      Windows XP_Icons_03_155: 1791876448
+      Windows XP_Icons_03_156: 1116012015
+      Windows XP_Icons_03_157: 841636920
+      Windows XP_Icons_03_158: 1023981573
+      Windows XP_Icons_03_159: 993903418
+      Windows XP_Icons_03_16: 953781913
+      Windows XP_Icons_03_160: -1247458514
+      Windows XP_Icons_03_161: -303185595
+      Windows XP_Icons_03_162: -1987830813
+      Windows XP_Icons_03_163: 574871926
+      Windows XP_Icons_03_164: -863928051
+      Windows XP_Icons_03_165: -1157864631
+      Windows XP_Icons_03_166: 723435445
+      Windows XP_Icons_03_167: -890071614
+      Windows XP_Icons_03_168: 1480532269
+      Windows XP_Icons_03_169: -437586053
+      Windows XP_Icons_03_17: -261113486
+      Windows XP_Icons_03_170: -1625085916
+      Windows XP_Icons_03_171: -1607109760
+      Windows XP_Icons_03_172: 80841364
+      Windows XP_Icons_03_173: -1742095124
+      Windows XP_Icons_03_174: 1565762911
+      Windows XP_Icons_03_175: 647930064
+      Windows XP_Icons_03_176: -134127368
+      Windows XP_Icons_03_177: 648416851
+      Windows XP_Icons_03_178: -862253579
+      Windows XP_Icons_03_179: -510807819
+      Windows XP_Icons_03_18: -1429172371
+      Windows XP_Icons_03_180: -578150203
+      Windows XP_Icons_03_181: 1496048664
+      Windows XP_Icons_03_182: -1706605255
+      Windows XP_Icons_03_183: -1257610121
+      Windows XP_Icons_03_184: 2126845882
+      Windows XP_Icons_03_185: -1585866692
+      Windows XP_Icons_03_186: -1458830483
+      Windows XP_Icons_03_187: -1509129786
+      Windows XP_Icons_03_188: 614804823
+      Windows XP_Icons_03_189: 1915224154
+      Windows XP_Icons_03_19: -1148603995
+      Windows XP_Icons_03_190: 379599727
+      Windows XP_Icons_03_191: 57107309
+      Windows XP_Icons_03_192: 311992532
+      Windows XP_Icons_03_193: 1150201451
+      Windows XP_Icons_03_194: 130862857
+      Windows XP_Icons_03_195: -1665492176
+      Windows XP_Icons_03_196: 261017498
+      Windows XP_Icons_03_197: 1066895561
+      Windows XP_Icons_03_198: -1782012346
+      Windows XP_Icons_03_199: 41522770
+      Windows XP_Icons_03_2: -1320903132
+      Windows XP_Icons_03_20: 1033838676
+      Windows XP_Icons_03_200: 1054671646
+      Windows XP_Icons_03_201: -1392389603
+      Windows XP_Icons_03_202: -151548553
+      Windows XP_Icons_03_203: 873339104
+      Windows XP_Icons_03_204: 316910201
+      Windows XP_Icons_03_205: 1445881728
+      Windows XP_Icons_03_206: -1800568884
+      Windows XP_Icons_03_207: 1674801993
+      Windows XP_Icons_03_208: -549742114
+      Windows XP_Icons_03_209: 1288318019
+      Windows XP_Icons_03_21: -695728397
+      Windows XP_Icons_03_210: 1466869474
+      Windows XP_Icons_03_211: -291804775
+      Windows XP_Icons_03_212: 726555596
+      Windows XP_Icons_03_213: -1741708234
+      Windows XP_Icons_03_214: 1514445087
+      Windows XP_Icons_03_215: 557890834
+      Windows XP_Icons_03_216: 1560143565
+      Windows XP_Icons_03_217: -1619094196
+      Windows XP_Icons_03_218: -875092657
+      Windows XP_Icons_03_219: 736648857
+      Windows XP_Icons_03_22: 2070640974
+      Windows XP_Icons_03_220: 132594020
+      Windows XP_Icons_03_221: 69827970
+      Windows XP_Icons_03_222: 1686044232
+      Windows XP_Icons_03_223: -26685743
+      Windows XP_Icons_03_224: 1834264562
+      Windows XP_Icons_03_225: -1225375732
+      Windows XP_Icons_03_226: 528893820
+      Windows XP_Icons_03_227: -524802431
+      Windows XP_Icons_03_228: -1568291384
+      Windows XP_Icons_03_229: 1539313644
+      Windows XP_Icons_03_23: 330872057
+      Windows XP_Icons_03_230: 617018601
+      Windows XP_Icons_03_231: 1443321446
+      Windows XP_Icons_03_232: 1312950859
+      Windows XP_Icons_03_233: -410991496
+      Windows XP_Icons_03_234: -1779206229
+      Windows XP_Icons_03_235: 953160295
+      Windows XP_Icons_03_236: 669967808
+      Windows XP_Icons_03_237: 722639548
+      Windows XP_Icons_03_238: -2063040707
+      Windows XP_Icons_03_239: 1816408427
+      Windows XP_Icons_03_24: -230400644
+      Windows XP_Icons_03_240: -1647543856
+      Windows XP_Icons_03_241: 1376829540
+      Windows XP_Icons_03_242: 1907197311
+      Windows XP_Icons_03_243: 944222384
+      Windows XP_Icons_03_244: 128689640
+      Windows XP_Icons_03_245: 2043294039
+      Windows XP_Icons_03_246: 1538085946
+      Windows XP_Icons_03_247: -1595000506
+      Windows XP_Icons_03_248: -1600994020
+      Windows XP_Icons_03_249: 1172715110
+      Windows XP_Icons_03_25: 338100960
+      Windows XP_Icons_03_250: -1111695908
+      Windows XP_Icons_03_251: 207950317
+      Windows XP_Icons_03_252: 167261365
+      Windows XP_Icons_03_253: -1248792456
+      Windows XP_Icons_03_254: 791065155
+      Windows XP_Icons_03_255: -205440396
+      Windows XP_Icons_03_256: -1279026324
+      Windows XP_Icons_03_257: 1609613682
+      Windows XP_Icons_03_258: 1184731836
+      Windows XP_Icons_03_259: -995486244
+      Windows XP_Icons_03_26: -939779110
+      Windows XP_Icons_03_260: 330449182
+      Windows XP_Icons_03_261: 763615755
+      Windows XP_Icons_03_262: -1596593448
+      Windows XP_Icons_03_263: -2107446681
+      Windows XP_Icons_03_264: -940406301
+      Windows XP_Icons_03_265: 561816764
+      Windows XP_Icons_03_266: -1578353046
+      Windows XP_Icons_03_267: -611452666
+      Windows XP_Icons_03_268: 1301346994
+      Windows XP_Icons_03_269: -1912735576
+      Windows XP_Icons_03_27: 1162155448
+      Windows XP_Icons_03_270: 10446495
+      Windows XP_Icons_03_271: 2034385997
+      Windows XP_Icons_03_272: -689226539
+      Windows XP_Icons_03_273: 1956796727
+      Windows XP_Icons_03_274: 1955515142
+      Windows XP_Icons_03_275: 1605794157
+      Windows XP_Icons_03_276: -693027938
+      Windows XP_Icons_03_277: 779830346
+      Windows XP_Icons_03_278: -815355969
+      Windows XP_Icons_03_279: 1036467732
+      Windows XP_Icons_03_28: 1855422893
+      Windows XP_Icons_03_280: 2065731791
+      Windows XP_Icons_03_281: 887611063
+      Windows XP_Icons_03_282: -2011444526
+      Windows XP_Icons_03_283: 370118256
+      Windows XP_Icons_03_284: 1075448855
+      Windows XP_Icons_03_285: 1507890985
+      Windows XP_Icons_03_286: 1186329679
+      Windows XP_Icons_03_287: 938760101
+      Windows XP_Icons_03_288: 354965087
+      Windows XP_Icons_03_289: 2036597268
+      Windows XP_Icons_03_29: -1769026717
+      Windows XP_Icons_03_290: -922056807
+      Windows XP_Icons_03_291: 762457024
+      Windows XP_Icons_03_292: -326701576
+      Windows XP_Icons_03_293: -92596467
+      Windows XP_Icons_03_294: 581579918
+      Windows XP_Icons_03_295: -2041347580
+      Windows XP_Icons_03_296: 2075168430
+      Windows XP_Icons_03_297: 177028995
+      Windows XP_Icons_03_298: -1183330665
+      Windows XP_Icons_03_299: 554298444
+      Windows XP_Icons_03_3: 1767100623
+      Windows XP_Icons_03_30: -1610813508
+      Windows XP_Icons_03_300: 1775232626
+      Windows XP_Icons_03_301: -1422082258
+      Windows XP_Icons_03_302: 607393699
+      Windows XP_Icons_03_303: -1504733678
+      Windows XP_Icons_03_304: -1136712218
+      Windows XP_Icons_03_305: -1339868511
+      Windows XP_Icons_03_306: -1398915381
+      Windows XP_Icons_03_307: -20978863
+      Windows XP_Icons_03_308: -27298398
+      Windows XP_Icons_03_309: -1990309507
+      Windows XP_Icons_03_31: -1985366296
+      Windows XP_Icons_03_310: 705457299
+      Windows XP_Icons_03_311: 2051225401
+      Windows XP_Icons_03_312: -510461293
+      Windows XP_Icons_03_313: -1357611749
+      Windows XP_Icons_03_314: 119211877
+      Windows XP_Icons_03_315: 228230615
+      Windows XP_Icons_03_316: 846514450
+      Windows XP_Icons_03_317: 1005306836
+      Windows XP_Icons_03_318: -1984267006
+      Windows XP_Icons_03_319: -1503092903
+      Windows XP_Icons_03_32: 124614509
+      Windows XP_Icons_03_320: 711207413
+      Windows XP_Icons_03_321: 1754038238
+      Windows XP_Icons_03_322: 896270486
+      Windows XP_Icons_03_323: -1462098636
+      Windows XP_Icons_03_324: 194217569
+      Windows XP_Icons_03_325: -330008510
+      Windows XP_Icons_03_326: -1559730621
+      Windows XP_Icons_03_327: -1856900364
+      Windows XP_Icons_03_328: 275814796
+      Windows XP_Icons_03_329: -825393879
+      Windows XP_Icons_03_33: 1728301523
+      Windows XP_Icons_03_330: -280603618
+      Windows XP_Icons_03_331: -841846974
+      Windows XP_Icons_03_332: -911708088
+      Windows XP_Icons_03_333: 1262237622
+      Windows XP_Icons_03_334: -1835150854
+      Windows XP_Icons_03_335: -851804241
+      Windows XP_Icons_03_336: 795022270
+      Windows XP_Icons_03_337: 1942238349
+      Windows XP_Icons_03_338: -1717648490
+      Windows XP_Icons_03_339: -933541175
+      Windows XP_Icons_03_34: -1937066893
+      Windows XP_Icons_03_340: 1138998239
+      Windows XP_Icons_03_341: -599301264
+      Windows XP_Icons_03_342: 246385325
+      Windows XP_Icons_03_35: 49223367
+      Windows XP_Icons_03_36: -1989374816
+      Windows XP_Icons_03_37: 423132422
+      Windows XP_Icons_03_38: -1729944950
+      Windows XP_Icons_03_39: -1133365126
+      Windows XP_Icons_03_4: 1240522181
+      Windows XP_Icons_03_40: 1585329690
+      Windows XP_Icons_03_41: -1044289476
+      Windows XP_Icons_03_42: -1937801498
+      Windows XP_Icons_03_43: -2107770076
+      Windows XP_Icons_03_44: 1496154624
+      Windows XP_Icons_03_45: 836516073
+      Windows XP_Icons_03_46: 221752339
+      Windows XP_Icons_03_47: -1782061776
+      Windows XP_Icons_03_48: -1263132988
+      Windows XP_Icons_03_49: 680012370
+      Windows XP_Icons_03_5: -1458862882
+      Windows XP_Icons_03_50: -1657137404
+      Windows XP_Icons_03_51: -663615922
+      Windows XP_Icons_03_52: -1690817377
+      Windows XP_Icons_03_53: 2088164224
+      Windows XP_Icons_03_54: 1703135743
+      Windows XP_Icons_03_55: 1450077524
+      Windows XP_Icons_03_56: -2109214869
+      Windows XP_Icons_03_57: -250109349
+      Windows XP_Icons_03_58: -2074441720
+      Windows XP_Icons_03_59: 2016201836
+      Windows XP_Icons_03_6: 697628632
+      Windows XP_Icons_03_60: -630147831
+      Windows XP_Icons_03_61: -1493841931
+      Windows XP_Icons_03_62: 1367514442
+      Windows XP_Icons_03_63: 1084317243
+      Windows XP_Icons_03_64: 544811900
+      Windows XP_Icons_03_65: -1915670829
+      Windows XP_Icons_03_66: -577171435
+      Windows XP_Icons_03_67: 216002169
+      Windows XP_Icons_03_68: 926112992
+      Windows XP_Icons_03_69: -203032588
+      Windows XP_Icons_03_7: -348651558
+      Windows XP_Icons_03_70: 384023895
+      Windows XP_Icons_03_71: 2015754979
+      Windows XP_Icons_03_72: -1001340727
+      Windows XP_Icons_03_73: 1899791636
+      Windows XP_Icons_03_74: 2107797169
+      Windows XP_Icons_03_75: 243778269
+      Windows XP_Icons_03_76: 1226957595
+      Windows XP_Icons_03_77: -1873541115
+      Windows XP_Icons_03_78: 1598487581
+      Windows XP_Icons_03_79: -1237219068
+      Windows XP_Icons_03_8: -1347065524
+      Windows XP_Icons_03_80: 1784297525
+      Windows XP_Icons_03_81: -555790161
+      Windows XP_Icons_03_82: -1627406314
+      Windows XP_Icons_03_83: 2057937769
+      Windows XP_Icons_03_84: 1231802858
+      Windows XP_Icons_03_85: -935764747
+      Windows XP_Icons_03_86: -1322782962
+      Windows XP_Icons_03_87: -1927225945
+      Windows XP_Icons_03_88: -413914055
+      Windows XP_Icons_03_89: 1006417532
+      Windows XP_Icons_03_9: 2024587140
+      Windows XP_Icons_03_90: -1515402478
+      Windows XP_Icons_03_91: 785391299
+      Windows XP_Icons_03_92: 526472155
+      Windows XP_Icons_03_93: 1611582871
+      Windows XP_Icons_03_94: -1322446099
+      Windows XP_Icons_03_95: 811263178
+      Windows XP_Icons_03_96: 220297308
+      Windows XP_Icons_03_97: -1798203073
+      Windows XP_Icons_03_98: -228749311
+      Windows XP_Icons_03_99: -530137162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
