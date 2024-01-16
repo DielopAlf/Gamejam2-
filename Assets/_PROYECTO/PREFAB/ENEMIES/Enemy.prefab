@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6304357343064471640}
   - component: {fileID: 8244226150654745128}
   - component: {fileID: 2310721677694714093}
+  - component: {fileID: 7556888540087725471}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Enemy
@@ -106,8 +107,8 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!114 &2310721677694714093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,7 +121,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed03895c59905d94ab0a6db3557149a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EnemyBase: {fileID: 0}
+  m_EnemyBase: {fileID: 11400000, guid: 3369ab008a996fa408048e5e1703f250, type: 2}
+--- !u!114 &7556888540087725471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610480649869528092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c5b4f321e46de46a8278f9aea8787e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Display: {fileID: 2310721677694714093}
+  _rb: {fileID: 8244226150654745128}
+  _name: 
+  _health: 0
+  _damage: 0
+  m_State: 0
+  _speed: 3
+  _jumpForce: 8
+  _pointA: {fileID: 0}
+  _pointB: {fileID: 0}
+  _currentPoint: {fileID: 0}
+  _detectDist: 4
+  _detectedTarget: 0
+  _target: {fileID: 0}
+  _isFacingRight: 1
 --- !u!1 &7774691479578165790
 GameObject:
   m_ObjectHideFlags: 0

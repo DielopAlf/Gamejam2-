@@ -43,13 +43,21 @@ namespace VictorRivero
 
         [Space(3)]
         [Header("Patrol Waypoints")]
-        [SerializeField] private Transform _waypointInit;
-        [SerializeField] private Transform _waypointFinal;
-        [SerializeField] private bool _initPos, _finalPos;
+        [SerializeField] private GameObject _pointA;
+        [SerializeField] private GameObject _pointB;
+        [SerializeField] private Transform _currentPoint;
+        [Space(2)]
+        [Header("Detect Target")]
+        [SerializeField] private float _detectDist;
+        [SerializeField] private bool _detectedTarget = false;
 
         [Space(3)]
         [Header("Target")]
         [SerializeField] private Transform _target;
+
+        [Space(3)]
+        [Header("Control")]
+        [SerializeField] private bool _isFacingRight = true;
         #endregion
         #region Public Fields
         #endregion
@@ -61,7 +69,7 @@ namespace VictorRivero
         // Start is called before the first frame update
         void Start()
         {
-            
+            _currentPoint = _pointB.transform;
         }
 
         // Update is called once per frame
@@ -70,10 +78,11 @@ namespace VictorRivero
             switch (m_State)
             {
                 case EnemyState.PATROL:
-                    Debug.Log("De Patrulla");
                     PatrolWaypoint();
+                    TargetDetected();
                     break;
                 case EnemyState.CHASING:
+                    Chasing();
                     break;
                 case EnemyState.ATTACKING:
                     break;
@@ -91,6 +100,8 @@ namespace VictorRivero
         // attached to is instantiated
         void Awake()
         {
+            m_State = EnemyState.PATROL;
+
             if (m_Display is null)
             {
                 m_Display = GetComponent<EnemyDisplay>();
@@ -115,18 +126,65 @@ namespace VictorRivero
         // LateUpdate is called after all Update functions have been called
         #endregion
         #region Private Methods
-        public void PatrolWaypoint()
+        private void Flip()
         {
-            if (transform.position.x == _waypointInit.position.x && _initPos)
+            _isFacingRight = !_isFacingRight;
+            Vector3 localScale = transform.localScale;
+            localScale.x *= -1.0f;
+            transform.localScale = localScale;
+        }
+        private void PatrolWaypoint()
+        {
+            Vector2 point = _currentPoint.position - transform.position;
+            
+            if (_currentPoint == _pointB.transform)
             {
-                Debug.Log("Desplazando");
-                _rb.velocity = new Vector2((_waypointFinal.position.x - transform.position.x) * _speed, _rb.velocity.y);
-                _finalPos = false;
-            }else if (transform.position.x == _waypointFinal.position.x && _finalPos)
-            {
-                _rb.velocity = new Vector2((_waypointInit.position.x - transform.position.x) * _speed, _rb.velocity.y);
-                _initPos = false;
+                _rb.velocity = new Vector2(_speed, 0.0f);
             }
+            else
+            {
+                _rb.velocity = new Vector2(-_speed, 0.0f);
+            }
+
+            if (Vector2.Distance(transform.position, _currentPoint.position) < 0.5f && _currentPoint == _pointB.transform)
+            {
+                _currentPoint = _pointA.transform;
+                Flip();
+            }
+            
+            if (Vector2.Distance(transform.position, _currentPoint.position) < 0.5f && _currentPoint == _pointA.transform)
+            {
+                _currentPoint = _pointB.transform;
+                Flip();
+            }
+
+            Debug.Log("Patrullando");
+        }
+        private void TargetDetected()
+        {
+            if (Vector2.Distance(transform.position, _target.position) < _detectDist)
+            {
+                m_State = EnemyState.CHASING;
+                _detectedTarget = true;
+            }
+            else 
+
+            Debug.Log("Detectado");
+        }
+        private void Chasing()
+        {
+            float x = _target.position.x - transform.position.x;
+            float y = _target.position.y - transform.position.y;
+
+            _rb.velocity = new Vector2(x * _speed, y);
+
+            if (Vector2.Distance(transform.position, _target.position) > _detectDist)
+            {
+                m_State = EnemyState.PATROL;
+                _detectedTarget = false;
+            }
+
+            Debug.Log("Persiguiendo");
         }
         private void Dead()
         {
@@ -139,6 +197,27 @@ namespace VictorRivero
             _health -= amount;
         }
         #endregion
+
+        private void OnDrawGizmos()
+        {
+            //Points Gizmos
+            Gizmos.DrawWireSphere(_pointA.transform.position, 0.5f);
+            Gizmos.DrawWireSphere(_pointB.transform.position, 0.5f);
+            Gizmos.DrawLine(_pointA.transform.position, _pointB.transform.position);
+
+            //Area Detect Gizmos
+            if (_detectedTarget)
+            {
+                Gizmos.color = Color.red;
+            }
+            else
+            {
+                Gizmos.color = Color.green;
+            }
+            Gizmos.DrawWireSphere(transform.position, _detectDist);
+        }
     }
+
+    
 }
 

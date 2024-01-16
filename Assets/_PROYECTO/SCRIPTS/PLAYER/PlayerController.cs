@@ -36,6 +36,9 @@ namespace VictorRivero{
 		[SerializeField] private Transform _groundChecker;
 		[SerializeField] private float _raycastLength;
 		[SerializeField] private LayerMask _groundLayer;
+		[Tooltip("Duracion y Magnitud del Shake de Camara")]
+		[SerializeField] private float _jumpShakeDuration;
+		[SerializeField] private float _jumpShakeMagnitude;
 
 		[Space(3)]
 		[Header("Double Jump")]
@@ -49,9 +52,16 @@ namespace VictorRivero{
 		[SerializeField] private float _dashSpeed; //Por defecto sera 10.0f
 		[SerializeField] private float _dasingTime;	//Por defecto sera 0.2f
 		[SerializeField] private float _dashingCooldown; //Por defecto sera 1.0f
-		[Space(1)]
+        [Tooltip("Duracion y Magnitud del Shake de Camara")]
+        [SerializeField] private float _dashShakeDuration;
+        [SerializeField] private float _dashShakeMagnitude;
+        [Space(1)]
 		[Header("Trail Renderer")]
 		[SerializeField] private TrailRenderer _trail;
+
+		[Space(3)]
+		[Header("Camera Scripts")]
+		[SerializeField] private CameraShake _camShake;
 
 		[Space(5)]
 		[Header("Gravity")]
@@ -167,7 +177,7 @@ namespace VictorRivero{
 			if (context.canceled && _rb.velocity.y > 0.0f)
 			{
 				_rb.velocity = new Vector2(_rb.velocity.x, _rb.velocity.y * 0.5f);
-			}
+            }
 		}
 		public void DobleJump()
 		{
@@ -176,7 +186,8 @@ namespace VictorRivero{
 		public void Dash(InputAction.CallbackContext context)
 		{
 			Debug.Log("Dasheando!");
-			StartCoroutine(DashMovement());
+			StartCoroutine(DashMovement()); 
+			StartCoroutine(_camShake.Shake(_dashShakeDuration, _dashShakeMagnitude));
             _rb.gravityScale = 1.0f;
         }
 		#endregion

@@ -1,4 +1,3 @@
-using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -88,8 +87,7 @@ namespace VictorRivero
         }
         public void PauseGame(InputAction.CallbackContext context)
         {
-            //ESTE ES OTRO MÉTODO
-            
+            //ESTE ES OTRO MÉTODO            
             /*float originalTimeScale = Time.timeScale;
 
             //Recordar el metodo de LeanTween para que no le afecte el TimeScale
@@ -148,6 +146,8 @@ namespace VictorRivero
         }
         #endregion
         #region IEnumerators
+
+        //Para hacerlas publicas solo añadir public delante del IEnumerator
         IEnumerator PanelPause()
         {
             _pauseGo.SetActive(true);
