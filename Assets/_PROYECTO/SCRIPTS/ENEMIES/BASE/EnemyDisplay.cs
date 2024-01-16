@@ -21,6 +21,7 @@ namespace VictorRivero{
 		[SerializeField] private EnemyBase m_EnemyBase;
 		#endregion
 		#region Public Fields
+		public EnemyBase m_Base { get { return m_EnemyBase; } }
 		#endregion
 		#region Lifecycle
 		#endregion

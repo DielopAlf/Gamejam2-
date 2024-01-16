@@ -99,6 +99,10 @@ namespace VictorRivero{
         {
             _curStress -= amount;
         }
+        public void TestAddingStress()
+        {
+            _curStress += _stressGain;
+        }
         #endregion
     }
 }

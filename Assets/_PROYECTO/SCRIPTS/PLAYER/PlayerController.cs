@@ -40,6 +40,7 @@ namespace VictorRivero{
 		[Space(3)]
 		[Header("Double Jump")]
 		[SerializeField] private int _jumpsAmount = 2;
+		[SerializeField] private bool _doubleJump = false;
 
 		[Space(3)]
 		[Header("Dash")]
@@ -157,10 +158,11 @@ namespace VictorRivero{
         }
         public void Jump(InputAction.CallbackContext context)
 		{
-			if (context.performed && IsGrounded())
+			if (context.performed && (IsGrounded() || _doubleJump))
 			{
-				_rb.velocity = new Vector2(_rb.velocity.x, _jumpForce);
-			}
+                _rb.velocity = new Vector2(_rb.velocity.x, _jumpForce);
+				_doubleJump = !_doubleJump;
+            }
 
 			if (context.canceled && _rb.velocity.y > 0.0f)
 			{
