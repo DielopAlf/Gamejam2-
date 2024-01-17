@@ -84,7 +84,7 @@ namespace VictorRivero
             {
                 case EnemyState.PATROL:
                     PatrolWaypoint();
-                    TargetDetected();
+                    //TargetDetected();
                     break;
                 case EnemyState.CHASING:
                     Chasing();

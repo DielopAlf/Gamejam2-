@@ -48,6 +48,8 @@ MonoBehaviour:
   _maxStress: 100
   _curStress: 0
   _stressGain: 1
-  _stressLess: 0.25
+  _stressLess: 1
   _timer: 0
-  _timeStress: 2.5
+  _timerLessHealth: 0
+  _timeToLess: 15
+  _timeStress: 3

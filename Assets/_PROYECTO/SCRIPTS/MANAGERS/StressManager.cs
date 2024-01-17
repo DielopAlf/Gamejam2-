@@ -31,6 +31,8 @@ namespace VictorRivero{
         [Space(3)]
         [Header("Timer")]
         [SerializeField] private float _timer;
+        [SerializeField] private float _timerLessHealth;
+        [SerializeField] private float _timeToLess;
         [SerializeField] private float _timeStress;
         #endregion
         #region Public Fields
@@ -61,6 +63,21 @@ namespace VictorRivero{
             }
 
             _stressBar.value = _curStress;
+
+            if (_curStress >= _maxStress)
+            {
+                _timerLessHealth += Time.deltaTime;
+
+                if (_timerLessHealth >= _timeToLess)
+                {
+                    HealthManager.Instance.ModifyHealth(-1);
+                    _timerLessHealth = 0.0f;
+                }
+
+                _curStress = _maxStress;
+            }
+
+            
         }
 
 		// Awake is called when the script is
@@ -91,12 +108,13 @@ namespace VictorRivero{
         }
         #endregion
         #region Public Methods
-        public void LessStressByAction()
+        public void GainStress(float amount)
         {
-            _curStress -= _stressLess;
+            _curStress += amount;
         }
-        public void LessStressPills(float amount)
+        public void LessStress(float amount)
         {
+            Debug.Log("Reduciendo estres!");
             _curStress -= amount;
         }
         public void TestAddingStress()

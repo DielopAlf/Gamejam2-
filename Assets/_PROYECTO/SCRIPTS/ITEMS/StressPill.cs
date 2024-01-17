@@ -60,7 +60,8 @@ namespace VictorRivero{
 		{
 			if (collision.CompareTag("Player"))
 			{
-				StressManager.Instance.LessStressPills(_stress);
+                Debug.Log("Pastilla recogida");
+                StressManager.Instance.LessStress(_stress);
                 Destroy(gameObject);
             }
 		}
