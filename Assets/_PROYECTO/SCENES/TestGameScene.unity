@@ -678,6 +678,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: _stress
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 8795056347962045550, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_Name
       value: PillStress (4)
@@ -1266,6 +1270,10 @@ PrefabInstance:
     - target: {fileID: 6215834174552759672, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: _stress
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8795056347962045550, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_Name
@@ -2752,6 +2760,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: _stress
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 8795056347962045550, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_Name
       value: PillStress (3)
@@ -2882,6 +2894,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: _stress
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 8795056347962045550, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_Name
       value: PillStress
@@ -2957,6 +2973,10 @@ PrefabInstance:
     - target: {fileID: 6215834174552759672, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: _stress
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8795056347962045550, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_Name
