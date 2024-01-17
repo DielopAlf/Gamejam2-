@@ -18,6 +18,8 @@ public class EnemyBase : ScriptableObject
     #region Fields
     public string enemyName;
     public Sprite enemyPrefab;
+    public Color enemyColor;
+    public int enemyPoints;
     public int enemyHealth;
     public int enemyDamage;
     public EnemyState enemyState;

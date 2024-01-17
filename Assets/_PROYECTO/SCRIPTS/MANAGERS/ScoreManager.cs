@@ -12,6 +12,8 @@ namespace VictorRivero{
 	public class ScoreManager : MonoBehaviour
 	{
         #region Static Fields
+        private static ScoreManager _instance;
+        public static ScoreManager Instance { get { return _instance; } }
         #endregion
         #region Const Field
         #endregion
@@ -48,7 +50,12 @@ namespace VictorRivero{
 		// attached to is instantiated
 		void Awake()
 		{
-			
+            if (_instance is null)
+            {
+                _instance = this;
+            }
+
+            DontDestroyOnLoad(gameObject);
 		}
 	    
 		// FixedUpdate is called at fixed time intervals

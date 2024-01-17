@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 namespace VictorRivero
@@ -56,6 +57,10 @@ namespace VictorRivero
         [SerializeField] private Transform _target;
 
         [Space(3)]
+        [Header("Offset FloatPoint")]
+        [SerializeField] private Vector3 _offsetFloatPoint;
+
+        [Space(3)]
         [Header("Control")]
         [SerializeField] private bool _isFacingRight = true;
         #endregion
@@ -87,6 +92,7 @@ namespace VictorRivero
                 case EnemyState.ATTACKING:
                     break;
                 case EnemyState.DEAD:
+                    Dead();
                     break;
                 case EnemyState.DEFAULT:
                     break;
@@ -188,13 +194,37 @@ namespace VictorRivero
         }
         private void Dead()
         {
-            Destroy(gameObject, 2.0f);
+            // Obtenemos el objeto de la Piscina de Objetos
+            GameObject _floatPoint = ObjectPool.Instance.GetPooledObject();
+            // Imprimimos el valor que deseamos mostrar
+            _floatPoint.GetComponentInChildren<TextMeshProUGUI>().text = "+" + m_Display.m_Base.enemyPoints.ToString();
+            // Cambiamos el color del texto para que se asemeje al de los enemigos
+            _floatPoint.GetComponentInChildren<TextMeshProUGUI>().color = m_Display.m_Base.enemyColor;
+
+            // Comprobamos si es null
+             if (_floatPoint != null)
+             {
+                // En caso de que no lo sea situaremos el objeto en la posicion deseada
+        		_floatPoint.transform.position = transform.position + _offsetFloatPoint;
+                // Activaremos el objeto
+        		_floatPoint.SetActive(true);
+             }
+
+             // Desactivaremos el GameObject del Enemigo
+             gameObject.SetActive(false);
+            // Modificaremos la puntuacion
+             ScoreManager.Instance.ModifyScore(m_Display.m_Base.enemyPoints);
         }
         #endregion
         #region Public Methods
         public void TakeDamage(int amount)
         {
             _health -= amount;
+
+            if (_health <= 0)
+            {
+                m_State = EnemyState.DEAD;
+            }
         }
         #endregion
 
