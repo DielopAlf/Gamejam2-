@@ -85,9 +85,15 @@ namespace VictorRivero{
 		#endregion
 		#region Unity Methods
 		// Start is called before the first frame update
+
+
+		//[Header("Animations")]
+   // [SerializeField] private Animator _animator;
+
 		void Start()
 		{
-			
+			   //     _animator = GetComponent<Animator>();
+
 		}
 
 		// Update is called once per frame
@@ -97,7 +103,8 @@ namespace VictorRivero{
 			{
 				return;
 			}
-
+		//	_animator.SetBool("IsWalking", Mathf.Abs(horizontal) > 0.1f);
+       // _animator.SetBool("IsJumping", !IsGrounded());
             //Desplazamos al personaje
             _rb.velocity = new Vector2(horizontal * _speed, _rb.velocity.y);
 
