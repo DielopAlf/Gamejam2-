@@ -576,7 +576,7 @@ PrefabInstance:
     - target: {fileID: 531975221107232674, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
       propertyPath: _animator
       value: 
-      objectReference: {fileID: 758575686}
+      objectReference: {fileID: 0}
     - target: {fileID: 767523579225296227, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -591,7 +591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3123367850443524034, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.05
+      value: -2.46
       objectReference: {fileID: 0}
     - target: {fileID: 3123367850443524034, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
       propertyPath: m_LocalPosition.z
@@ -635,7 +635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5609677470362095465, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
       propertyPath: m_Size.y
-      value: 1.8276535
+      value: 1.9180562
       objectReference: {fileID: 0}
     - target: {fileID: 5609677470362095465, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
       propertyPath: m_Offset.x
@@ -643,7 +643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5609677470362095465, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
       propertyPath: m_Offset.y
-      value: -0.061103046
+      value: 0.44615948
       objectReference: {fileID: 0}
     - target: {fileID: 5609677470362095465, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -661,11 +661,6 @@ PrefabInstance:
 --- !u!4 &758575685 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3123367850443524034, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
-  m_PrefabInstance: {fileID: 758575684}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &758575686 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5136462813234473832, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
   m_PrefabInstance: {fileID: 758575684}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &766868478
