@@ -19,6 +19,19 @@ namespace VictorRivero{
 		#region Private Fields
 		[Header("Object Pool")]
 		[SerializeField] private ObjectPool _objectPool;
+
+		[Space(3)]
+		[Header("Attack")]
+		[SerializeField] private float _attackRate;
+
+		[Space(3)]
+		[Header("Times")]
+        [SerializeField] private float _timer;
+
+        [Space(3)]
+		[Header("Control")]
+		[SerializeField] private bool _canSing = false;
+		
 		#endregion
 		#region Public Fields
 		#endregion
@@ -36,7 +49,21 @@ namespace VictorRivero{
 		// Update is called once per frame
 		void Update()
 		{
-			
+			if (!_canSing)
+			{
+				_timer += Time.deltaTime;
+				if (_timer >= _attackRate)
+				{
+					_canSing = true;
+					_timer = 0.0f;
+				}
+			}
+
+			if (_canSing && _timer == 0.0f)
+			{
+				Sing();
+				_canSing = false;
+			}
 		}
 
 		// Awake is called when the script is
@@ -59,9 +86,23 @@ namespace VictorRivero{
 		private void Sing()
 		{
 			GameObject _singWaveObj = _objectPool.GetPooledObject();
+
+            if(_singWaveObj != null)
+            {
+            	_singWaveObj.transform.position = transform.position;
+            	_singWaveObj.SetActive(true);
+            }
+        }
+        #endregion
+        #region Public Methods
+        #endregion
+        #region IEnumerator
+        IEnumerator Singing()
+		{
+			Sing();
+			new WaitForSeconds(_attackRate);
+			yield return null;
 		}
-		#endregion            
-		#region Public Methods
 		#endregion
 	}
 }

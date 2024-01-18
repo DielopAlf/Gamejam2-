@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -24,8 +25,9 @@ namespace VictorRivero{
 		[Header("Components")]
 		[SerializeField] private PlayerInputs _inputs;
 		[SerializeField] private Rigidbody2D _rb;
+        [SerializeField] private Animator _anim;
 
-		[Space(3)]
+        [Space(3)]
 		[Header("Movement")]
 		[SerializeField] private float _speed;
 		[SerializeField]private float horizontal;
@@ -70,6 +72,7 @@ namespace VictorRivero{
         [Space(3)]
 		[Header("Control")]
 		[SerializeField] private bool _isFacingRight = true;
+		[SerializeField] private bool _isWalking = false;
 
 		//Comprobamos si toca el suelo
 		private bool IsGrounded()
@@ -85,15 +88,20 @@ namespace VictorRivero{
 		#endregion
 		#region Unity Methods
 		// Start is called before the first frame update
-
-
-		//[Header("Animations")]
-   // [SerializeField] private Animator _animator;
-
 		void Start()
 		{
-			   //     _animator = GetComponent<Animator>();
-
+			if (_inputs is null)
+			{
+				_inputs = GetComponent<PlayerInputs>();
+			}
+			if (_rb is null)
+			{
+				_rb = GetComponent<Rigidbody2D>();
+			}
+			if (_anim is null)
+			{
+				_anim = GetComponentInChildren<Animator>();
+			}
 		}
 
 		// Update is called once per frame
@@ -103,8 +111,11 @@ namespace VictorRivero{
 			{
 				return;
 			}
-		//	_animator.SetBool("IsWalking", Mathf.Abs(horizontal) > 0.1f);
-       // _animator.SetBool("IsJumping", !IsGrounded());
+
+            //_anim.SetBool("Horizontal", Mathf.Abs(horizontal) > 0.1f);
+            //_anim.SetBool("en suelo", !IsGrounded());
+            
+
             //Desplazamos al personaje
             _rb.velocity = new Vector2(horizontal * _speed, _rb.velocity.y);
 
@@ -112,10 +123,23 @@ namespace VictorRivero{
 			if (!_isFacingRight && horizontal > 0.0f)
 			{
 				Flip();
+				Debug.Log("Derecha");
 			}else if(_isFacingRight && horizontal < 0.0f)
 			{
                 Flip();
+                Debug.Log("Izquierda");
             }
+
+			if (horizontal == 0)
+			{
+				_isWalking = false;
+                _anim.SetInteger("Horizontal", 0);
+            }
+
+			//Animaciones
+            _anim.SetInteger("Horizontal", (int)horizontal);
+            _anim.SetBool("Walk", _isWalking);
+            _anim.SetBool("Jump", !IsGrounded());
 
             _rb.velocity = new Vector2(_rb.velocity.x, _rb.velocity.y);
         }
@@ -135,11 +159,6 @@ namespace VictorRivero{
             {
                 return;
             }
-
-			/*if (!IsGrounded())
-			{
-                _rb.velocity = new Vector2(_rb.velocity.x, _gravityForce);
-            }*/
         }
             
 		// LateUpdate is called after all Update functions have been called
@@ -172,6 +191,8 @@ namespace VictorRivero{
         public void Move(InputAction.CallbackContext context)
         {
             horizontal = context.ReadValue<Vector2>().x;
+            
+			_isWalking = true;
         }
         public void Jump(InputAction.CallbackContext context)
 		{
@@ -179,6 +200,7 @@ namespace VictorRivero{
 			{
                 _rb.velocity = new Vector2(_rb.velocity.x, _jumpForce);
 				_doubleJump = !_doubleJump;
+                
             }
 
 			if (context.canceled && _rb.velocity.y > 0.0f)

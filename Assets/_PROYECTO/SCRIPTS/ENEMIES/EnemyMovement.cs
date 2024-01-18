@@ -65,6 +65,7 @@ namespace VictorRivero
         [SerializeField] private bool _isFacingRight = true;
         #endregion
         #region Public Fields
+        public bool IsFacingRight { get { return _isFacingRight; }}
         #endregion
         #region Lifecycle
         #endregion
