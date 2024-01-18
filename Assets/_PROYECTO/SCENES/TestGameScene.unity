@@ -443,10 +443,6 @@ PrefabInstance:
       propertyPath: _camShake
       value: 
       objectReference: {fileID: 1001373493}
-    - target: {fileID: 767523579225296227, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 7482667652216324306, guid: bea489a4c734c8d43af09df8bee8016b, type: 3}
     - target: {fileID: 1101081798937728399, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
       propertyPath: m_Name
       value: CharacterController
