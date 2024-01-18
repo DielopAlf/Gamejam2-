@@ -61,10 +61,11 @@ namespace VictorRivero{
 			if (collision.gameObject.CompareTag("Player"))
 			{
 				_isFinished = true;
+		      GameManager.Instance.GameWon();
+
 			}
 		}
 		#endregion
-		#region Public Methods
-		#endregion
+		
 	}
 }

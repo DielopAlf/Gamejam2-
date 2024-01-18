@@ -101,6 +101,24 @@ namespace VictorRivero
         {
             HudManager.Instance.CancelInvoke();
         }
+
+       
+      
+
+        public void GameOver()
+        {
+            // Puedes realizar acciones específicas de Game Over aquí, como mostrar un panel de Game Over.
+            // Después, detén el juego.
+            Time.timeScale = 0.0f;
+        }
+
+        public void GameWon()
+        {
+            // Puedes realizar acciones específicas de Victoria aquí, como mostrar un panel de Victoria.
+            // Después, detén el juego.
+            Time.timeScale = 0.0f;
+        }
         #endregion
+
     }
 }
