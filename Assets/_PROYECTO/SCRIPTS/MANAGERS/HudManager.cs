@@ -34,6 +34,11 @@ namespace VictorRivero
         [Header("Pop Ups")]
         [SerializeField]private GameObject _quitPopUpGo;
         [SerializeField]private GameObject _mainMenuPopUp;
+
+        [Space(3)]
+        [Header("Screens")]
+        [SerializeField] private GameObject _victoryScreen;
+        [SerializeField] private GameObject _failScreen;
         #endregion
         #region Public Fields
         #endregion
@@ -143,6 +148,16 @@ namespace VictorRivero
         {
             _quitPopUpGo.SetActive(false);
             _mainMenuPopUp.SetActive(false);
+        }
+
+        public void VictoryScreen()
+        {
+            _victoryScreen.SetActive(true);
+        }
+
+        public void FailGame()
+        {
+            _failScreen.SetActive(true);
         }
         #endregion
         #region IEnumerators

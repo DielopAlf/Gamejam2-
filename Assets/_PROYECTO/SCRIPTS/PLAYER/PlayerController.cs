@@ -42,10 +42,16 @@ namespace VictorRivero{
 		[SerializeField] private float _jumpShakeDuration;
 		[SerializeField] private float _jumpShakeMagnitude;
 
-		[Space(3)]
+		[Space(1)]
 		[Header("Double Jump")]
-		[SerializeField] private int _jumpsAmount = 2;
 		[SerializeField] private bool _doubleJump = false;
+
+		[Space(1)]
+		[Header("Jumps Times & Buffers")]
+		[SerializeField] private float _coyoteTime;
+		private float _coyoteTimeCounter;
+		[SerializeField] private float _jumpBufferTime = 0.2f;
+		private float _jumpBufferCounter;
 
 		[Space(3)]
 		[Header("Dash")]
@@ -111,11 +117,7 @@ namespace VictorRivero{
 			{
 				return;
 			}
-
-            //_anim.SetBool("Horizontal", Mathf.Abs(horizontal) > 0.1f);
-            //_anim.SetBool("en suelo", !IsGrounded());
-            
-
+          
             //Desplazamos al personaje
             _rb.velocity = new Vector2(horizontal * _speed, _rb.velocity.y);
 
@@ -123,11 +125,9 @@ namespace VictorRivero{
 			if (!_isFacingRight && horizontal > 0.0f)
 			{
 				Flip();
-				Debug.Log("Derecha");
 			}else if(_isFacingRight && horizontal < 0.0f)
 			{
                 Flip();
-                Debug.Log("Izquierda");
             }
 
 			if (horizontal == 0)
@@ -136,7 +136,16 @@ namespace VictorRivero{
                 _anim.SetInteger("Horizontal", 0);
             }
 
-			//Animaciones
+			if (IsGrounded())
+			{
+				_coyoteTimeCounter = _coyoteTime;
+			}
+			else
+			{
+				_coyoteTimeCounter = Time.deltaTime;
+            }
+
+            //Animaciones
             _anim.SetInteger("Horizontal", (int)horizontal);
             _anim.SetBool("Walk", _isWalking);
             _anim.SetBool("Jump", !IsGrounded());
@@ -196,22 +205,26 @@ namespace VictorRivero{
         }
         public void Jump(InputAction.CallbackContext context)
 		{
-			if (context.performed && (IsGrounded() || _doubleJump))
+
+			if (context.performed)
+			{
+                _jumpBufferCounter = _jumpBufferTime;
+			}
+			else
+			{
+                _jumpBufferCounter -= Time.deltaTime;
+            }
+            if (context.performed && ((_coyoteTimeCounter > 0.0f || IsGrounded()) || _doubleJump))
 			{
                 _rb.velocity = new Vector2(_rb.velocity.x, _jumpForce);
-				_doubleJump = !_doubleJump;
-                
+				_doubleJump = !_doubleJump;               
             }
 
-			if (context.canceled && _rb.velocity.y > 0.0f)
+            if (context.canceled && _rb.velocity.y > 0.0f)
 			{
 				_rb.velocity = new Vector2(_rb.velocity.x, _rb.velocity.y * 0.5f);
             }
-		}
-		public void DobleJump()
-		{
-
-		}
+        }
 		public void Dash(InputAction.CallbackContext context)
 		{
 			Debug.Log("Dasheando!");

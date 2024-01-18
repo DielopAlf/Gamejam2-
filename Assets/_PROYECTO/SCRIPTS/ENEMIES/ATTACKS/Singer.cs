@@ -99,9 +99,8 @@ namespace VictorRivero{
         #region IEnumerator
         IEnumerator Singing()
 		{
-			Sing();
-			new WaitForSeconds(_attackRate);
-			yield return null;
+            yield return new WaitForSeconds(_attackRate);
+            Sing();
 		}
 		#endregion
 	}

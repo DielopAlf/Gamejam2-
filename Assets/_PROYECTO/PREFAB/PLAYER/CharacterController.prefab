@@ -237,8 +237,9 @@ MonoBehaviour:
     m_Bits: 8
   _jumpShakeDuration: 0.15
   _jumpShakeMagnitude: 0.25
-  _jumpsAmount: 2
   _doubleJump: 0
+  _coyoteTime: 0
+  _jumpBufferTime: 0.2
   _canDash: 1
   _isDashing: 0
   _dashSpeed: 18
@@ -263,7 +264,7 @@ GameObject:
   - component: {fileID: 7332086278875413715}
   m_Layer: 6
   m_Name: CharacterDashTrail
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -407,7 +408,7 @@ GameObject:
   - component: {fileID: 7999823885682719058}
   m_Layer: 6
   m_Name: GroundChecker
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -440,7 +441,7 @@ GameObject:
   - component: {fileID: 7257756593185137037}
   m_Layer: 6
   m_Name: Character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
