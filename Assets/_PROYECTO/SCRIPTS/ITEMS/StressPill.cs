@@ -37,6 +37,9 @@ namespace VictorRivero{
         #endregion
         #region Unity Methods
         // Start is called before the first frame update
+		[Header("Audio")]
+        [SerializeField] private AudioSource pickupAudioSource;
+        [SerializeField] private AudioClip pickupSound;
         void Start()
 		{
 			
@@ -69,6 +72,8 @@ namespace VictorRivero{
 		{
 			if (collision.CompareTag("Player"))
 			{
+			                PlayPickupSound();
+
                 GameObject _floatPoint = _objectPool.GetPooledObject();
                 // Imprimimos el valor que deseamos mostrar
                 _floatPoint.GetComponentInChildren<TextMeshProUGUI>().text = "-1";
@@ -89,6 +94,12 @@ namespace VictorRivero{
                 //Destroy(gameObject);
             }
 		}
+		 private void PlayPickupSound() {
+            if (pickupAudioSource != null && pickupSound != null) 
+			{
+                pickupAudioSource.PlayOneShot(pickupSound);
+            }
+        }
 		#endregion
 		#region Public Methods
 		#endregion

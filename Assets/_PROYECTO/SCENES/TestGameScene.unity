@@ -507,6 +507,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5609677470362095465, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5123638
+      objectReference: {fileID: 0}
+    - target: {fileID: 5609677470362095465, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
+      propertyPath: m_Size.y
+      value: 1.8896966
+      objectReference: {fileID: 0}
+    - target: {fileID: 5609677470362095465, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.013998687
+      objectReference: {fileID: 0}
+    - target: {fileID: 5609677470362095465, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.46482968
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -699,6 +715,14 @@ PrefabInstance:
       propertyPath: _objectPool
       value: 
       objectReference: {fileID: 809967035}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f9461bcc0cc4dca479e2a15c4427180f, type: 3}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupAudioSource
+      value: 
+      objectReference: {fileID: 1749035407}
     - target: {fileID: 8795056347962045550, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_Name
       value: PillStress (3)
@@ -760,6 +784,14 @@ PrefabInstance:
       propertyPath: _objectPool
       value: 
       objectReference: {fileID: 809967035}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f9461bcc0cc4dca479e2a15c4427180f, type: 3}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupAudioSource
+      value: 
+      objectReference: {fileID: 1749035407}
     - target: {fileID: 8795056347962045550, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_Name
       value: PillStress (5)
@@ -1272,6 +1304,14 @@ PrefabInstance:
       propertyPath: _objectPool
       value: 
       objectReference: {fileID: 8036896651468511194}
+    - target: {fileID: 9206598105713088360, guid: 0828bdf5470fd5948acf54d124f5f0f5, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3ddb7ac0645620a449268fc435dec8dd, type: 3}
+    - target: {fileID: 9206598105713088360, guid: 0828bdf5470fd5948acf54d124f5f0f5, type: 3}
+      propertyPath: pickupAudioSource
+      value: 
+      objectReference: {fileID: 1749035407}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1340,6 +1380,14 @@ PrefabInstance:
       propertyPath: _objectPool
       value: 
       objectReference: {fileID: 809967035}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f9461bcc0cc4dca479e2a15c4427180f, type: 3}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupAudioSource
+      value: 
+      objectReference: {fileID: 1749035407}
     - target: {fileID: 8795056347962045550, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_Name
       value: PillStress (6)
@@ -2992,6 +3040,14 @@ PrefabInstance:
       propertyPath: _objectPool
       value: 
       objectReference: {fileID: 809967035}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f9461bcc0cc4dca479e2a15c4427180f, type: 3}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupAudioSource
+      value: 
+      objectReference: {fileID: 1749035407}
     - target: {fileID: 8795056347962045550, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_Name
       value: PillStress (4)
@@ -3182,6 +3238,14 @@ PrefabInstance:
       propertyPath: _objectPool
       value: 
       objectReference: {fileID: 809967035}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f9461bcc0cc4dca479e2a15c4427180f, type: 3}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupAudioSource
+      value: 
+      objectReference: {fileID: 1749035407}
     - target: {fileID: 8795056347962045550, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_Name
       value: PillStress
@@ -3243,6 +3307,14 @@ PrefabInstance:
       propertyPath: _objectPool
       value: 
       objectReference: {fileID: 809967035}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f9461bcc0cc4dca479e2a15c4427180f, type: 3}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupAudioSource
+      value: 
+      objectReference: {fileID: 1749035407}
     - target: {fileID: 8795056347962045550, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_Name
       value: PillStress (2)
@@ -3784,7 +3856,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3666226782095032307, guid: ce2d386ee900dda40b611d8bbea5cad3, type: 3}
   m_PrefabInstance: {fileID: 4229247996808651784}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1749035405}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26ccacedbcb0ce84cbdc8c10a8ba9530, type: 3}
@@ -4036,6 +4108,14 @@ PrefabInstance:
       propertyPath: _objectPool
       value: 
       objectReference: {fileID: 809967035}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f9461bcc0cc4dca479e2a15c4427180f, type: 3}
+    - target: {fileID: 8168309926315880718, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
+      propertyPath: pickupAudioSource
+      value: 
+      objectReference: {fileID: 1749035407}
     - target: {fileID: 8795056347962045550, guid: 4c0787dd0dd003d4d93cd0594d7151e6, type: 3}
       propertyPath: m_Name
       value: PillStress (1)
@@ -4239,6 +4319,107 @@ MonoBehaviour:
   _rb: {fileID: 1708888167}
   _fallDelay: 1
   _destroyDelay: 3.5
+--- !u!1 &1749035405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8203202948232538037, guid: ce2d386ee900dda40b611d8bbea5cad3, type: 3}
+  m_PrefabInstance: {fileID: 4229247996808651784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1749035407
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749035405}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 4fd43a6350476d94fa0941cdef33f6e5, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.4
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 20
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1842134066
 GameObject:
   m_ObjectHideFlags: 0
@@ -5043,6 +5224,30 @@ PrefabInstance:
       propertyPath: _finishZone
       value: 
       objectReference: {fileID: 1213000849}
+    - target: {fileID: 3666226782095032307, guid: ce2d386ee900dda40b611d8bbea5cad3, type: 3}
+      propertyPath: defeatSound
+      value: 
+      objectReference: {fileID: 8300000, guid: e5b82e92e7f24b2408790f495a4786a0, type: 3}
+    - target: {fileID: 3666226782095032307, guid: ce2d386ee900dda40b611d8bbea5cad3, type: 3}
+      propertyPath: victorySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 61d22e9d1a73dea46883c9f19f49cbdf, type: 3}
+    - target: {fileID: 3666226782095032307, guid: ce2d386ee900dda40b611d8bbea5cad3, type: 3}
+      propertyPath: backgroundSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4fd43a6350476d94fa0941cdef33f6e5, type: 3}
+    - target: {fileID: 3666226782095032307, guid: ce2d386ee900dda40b611d8bbea5cad3, type: 3}
+      propertyPath: defeatAudioSource
+      value: 
+      objectReference: {fileID: 1749035407}
+    - target: {fileID: 3666226782095032307, guid: ce2d386ee900dda40b611d8bbea5cad3, type: 3}
+      propertyPath: victoryAudioSource
+      value: 
+      objectReference: {fileID: 1749035407}
+    - target: {fileID: 3666226782095032307, guid: ce2d386ee900dda40b611d8bbea5cad3, type: 3}
+      propertyPath: backgroundAudioSource
+      value: 
+      objectReference: {fileID: 1749035407}
     - target: {fileID: 5017797016147106004, guid: ce2d386ee900dda40b611d8bbea5cad3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5090,7 +5295,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8203202948232538037, guid: ce2d386ee900dda40b611d8bbea5cad3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1749035407}
   m_SourcePrefab: {fileID: 100100000, guid: ce2d386ee900dda40b611d8bbea5cad3, type: 3}
 --- !u!1001 &5385509898798970744
 PrefabInstance:

@@ -72,6 +72,12 @@ namespace VictorRivero
         #region Public API
         #endregion
         #region Unity Methods
+
+        [Header("Audio")]
+        [SerializeField] private AudioSource enemyAudioSource;
+        [SerializeField] private AudioClip enemySoundClip;
+
+
         // Start is called before the first frame update
         void Start()
         {
@@ -122,6 +128,12 @@ namespace VictorRivero
             _name = m_Display.m_Base.enemyName;
             _health = m_Display.m_Base.enemyHealth;
             _damage = m_Display.m_Base.enemyDamage;
+
+
+            // Inicializa el AudioSource
+            enemyAudioSource = gameObject.AddComponent<AudioSource>();
+            enemyAudioSource.clip = enemySoundClip;
+            enemyAudioSource.playOnAwake = false;
         }
 
         // FixedUpdate is called at fixed time intervals
