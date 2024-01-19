@@ -253,3 +253,5 @@ MonoBehaviour:
   _stress: 1
   _objectPool: {fileID: 0}
   _offsetFloatPoint: {x: 0, y: 1.25, z: 0}
+  pickupAudioSource: {fileID: 0}
+  pickupSound: {fileID: 8300000, guid: f9461bcc0cc4dca479e2a15c4427180f, type: 3}

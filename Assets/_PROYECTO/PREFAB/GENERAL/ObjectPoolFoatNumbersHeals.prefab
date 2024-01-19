@@ -45,5 +45,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pooledObjects: []
-  _amountToPool: 0
-  _objectToPool: {fileID: 0}
+  _amountToPool: 5
+  _objectToPool: {fileID: 1460314312336548415, guid: b3b8de5f7cd87834cb5576bd737f0f75, type: 3}

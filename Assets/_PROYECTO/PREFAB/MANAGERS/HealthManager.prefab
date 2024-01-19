@@ -48,3 +48,5 @@ MonoBehaviour:
   _maxHealth: 3
   _curHealth: 0
   _minHealth: 0
+  _audioSource: {fileID: 0}
+  _damageSound: {fileID: 0}
