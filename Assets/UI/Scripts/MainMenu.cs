@@ -20,9 +20,17 @@ public class MainMenu : MonoBehaviour
     [Header("Level Selector")]
     [SerializeField] private GameObject levelSelection;
 
+    [Header("Controls")]
+    [SerializeField] private GameObject controls;
+
+    [Header("Credits")]
+    [SerializeField] private GameObject credits;
+
     [Header("Bools")]
     [SerializeField] private bool startPressed;
     [SerializeField] private bool playPressed;
+    [SerializeField] private bool controlsPressed;
+    [SerializeField] private bool creditsPressed;
 
     #endregion
 
@@ -34,9 +42,13 @@ public class MainMenu : MonoBehaviour
         toolbar.SetActive(true);
         windowsTab.SetActive(false);
         levelSelection.SetActive(false);
+        controls.SetActive(false);
+        credits.SetActive(false);
 
         startPressed = false;
         playPressed = false;
+        controlsPressed = false;
+        creditsPressed = false;
     }
 
     private void Update()
@@ -62,7 +74,11 @@ public class MainMenu : MonoBehaviour
 
     public void PlayButton()
     {
-        Debug.Log("Pressed");
+        controls.SetActive(false);
+        credits.SetActive(false);
+        controlsPressed = false;
+        creditsPressed = false;
+
         if (playPressed)
         {
             levelSelection.SetActive(false);
@@ -72,6 +88,44 @@ public class MainMenu : MonoBehaviour
         {
             levelSelection.SetActive(true);
             playPressed = true;
+        }
+    }
+
+    public void ControlsButton()
+    {
+        levelSelection.SetActive(false);
+        credits.SetActive(false);
+        playPressed = false;
+        creditsPressed = false;
+
+        if (controlsPressed)
+        {
+            controls.SetActive(false);
+            controlsPressed = false;
+        }
+        else
+        {
+            controls.SetActive(true);
+            controlsPressed = true;
+        }
+    }
+
+    public void CreditsButton()
+    {
+        levelSelection.SetActive(false);
+        controls.SetActive(false);
+        playPressed = false;
+        controlsPressed = false;
+
+        if (creditsPressed)
+        {
+            credits.SetActive(false);
+            creditsPressed = false;
+        }
+        else
+        {
+            credits.SetActive(true);
+            creditsPressed = true;
         }
     }
 
