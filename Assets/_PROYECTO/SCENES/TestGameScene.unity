@@ -1608,6 +1608,14 @@ PrefabInstance:
       propertyPath: _healthBar
       value: 
       objectReference: {fileID: 759308418}
+    - target: {fileID: 7887169268484683129, guid: c92297fa39543604595062c67046d9cd, type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887169268484683129, guid: c92297fa39543604595062c67046d9cd, type: 3}
+      propertyPath: _damageSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8093533752299553730, guid: c92297fa39543604595062c67046d9cd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2635,6 +2643,14 @@ PrefabInstance:
       propertyPath: _stressBar
       value: 
       objectReference: {fileID: 557697144}
+    - target: {fileID: 4734903597411046750, guid: 84fc054b865e12c4caf557d10bd7aa79, type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1749035407}
+    - target: {fileID: 4734903597411046750, guid: 84fc054b865e12c4caf557d10bd7aa79, type: 3}
+      propertyPath: _stressDamageSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d9784e3fafea940408e91f9f437e7f96, type: 3}
     - target: {fileID: 9041322645752147301, guid: 84fc054b865e12c4caf557d10bd7aa79, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

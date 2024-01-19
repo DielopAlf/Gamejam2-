@@ -42,6 +42,11 @@ namespace VictorRivero{
         #region Public API
         #endregion
         #region Unity Methods
+
+        [Header("Audio")]
+        [SerializeField] private AudioSource _audioSource;
+        [SerializeField] private AudioClip _stressDamageSound;
+
         // Start is called before the first frame update
         void Start()
 		{
@@ -116,7 +121,11 @@ namespace VictorRivero{
         {
             Debug.Log("Reduciendo estres!");
             _curStress -= amount;
+             if (_audioSource != null && _stressDamageSound != null) {
+                _audioSource.PlayOneShot(_stressDamageSound);
+            }
         }
+
         public void TestAddingStress()
         {
             _curStress += _stressGain;

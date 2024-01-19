@@ -35,6 +35,9 @@ namespace VictorRivero{
         #region Public API
         #endregion
         #region Unity Methods
+        [Header("Audio")]
+        [SerializeField] private AudioSource _audioSource;
+        [SerializeField] private AudioClip _damageSound;
         // Start is called before the first frame update
         void Start()
 		{
@@ -96,6 +99,11 @@ namespace VictorRivero{
                 // La vida llegó a 0, juego perdido
                 GameManager.Instance.GameOver();
             }
+            else {
+            if (_audioSource != null && _damageSound != null) {
+                    _audioSource.PlayOneShot(_damageSound);
+                }
+                }
         }
         #endregion
 
