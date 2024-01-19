@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -41,6 +42,7 @@ namespace VictorRivero{
 		[Tooltip("Duracion y Magnitud del Shake de Camara")]
 		[SerializeField] private float _jumpShakeDuration;
 		[SerializeField] private float _jumpShakeMagnitude;
+		[SerializeField] private int _jumpsAmount = 1;
 
 		[Space(1)]
 		[Header("Double Jump")]
@@ -139,11 +141,18 @@ namespace VictorRivero{
 			if (IsGrounded())
 			{
 				_coyoteTimeCounter = _coyoteTime;
-			}
+                _jumpsAmount++;
+            }
 			else
 			{
 				_coyoteTimeCounter = Time.deltaTime;
             }
+
+			//Seteando el max. y min. de los saltos
+			if(_jumpsAmount<=0)
+			{ _jumpsAmount = 0;}
+			if(_jumpsAmount > 1)
+			{ _jumpsAmount = 1; }
 
             //Animaciones
             _anim.SetInteger("Horizontal", (int)horizontal);
@@ -192,6 +201,7 @@ namespace VictorRivero{
 			_trail.emitting = false;
             _rb.gravityScale = originalGravity;	//Al invocar esta corrutina en una funcion no llega a cambiar nuevamente la escala de gravedad a 1.0f
             _isDashing = false;
+			_canDash = false;
 			yield return new WaitForSeconds(_dashingCooldown);
 			_canDash = true;
 		}
@@ -214,10 +224,11 @@ namespace VictorRivero{
 			{
                 _jumpBufferCounter -= Time.deltaTime;
             }
-            if (context.performed && ((_coyoteTimeCounter > 0.0f || IsGrounded()) || _doubleJump))
+            if (context.performed && ((_coyoteTimeCounter > 0.0f || IsGrounded()) || _doubleJump) && _jumpsAmount != 0)
 			{
+                _jumpsAmount--;
                 _rb.velocity = new Vector2(_rb.velocity.x, _jumpForce);
-				_doubleJump = !_doubleJump;               
+				_doubleJump = !_doubleJump;
             }
 
             if (context.canceled && _rb.velocity.y > 0.0f)
@@ -227,10 +238,12 @@ namespace VictorRivero{
         }
 		public void Dash(InputAction.CallbackContext context)
 		{
-			Debug.Log("Dasheando!");
-			StartCoroutine(DashMovement()); 
-			StartCoroutine(_camShake.Shake(_dashShakeDuration, _dashShakeMagnitude));
-            _rb.gravityScale = 1.0f;
+			if (_canDash)
+			{
+                StartCoroutine(DashMovement());
+                StartCoroutine(_camShake.Shake(_dashShakeDuration, _dashShakeMagnitude));
+                _rb.gravityScale = 1.0f;
+            }
         }
 		#endregion
 	}

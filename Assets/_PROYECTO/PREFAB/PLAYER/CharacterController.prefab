@@ -235,18 +235,19 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  _jumpShakeDuration: 0.15
-  _jumpShakeMagnitude: 0.25
+  _jumpShakeDuration: 0.2
+  _jumpShakeMagnitude: 0.1
+  _jumpsAmount: 2
   _doubleJump: 0
   _coyoteTime: 0
   _jumpBufferTime: 0.2
   _canDash: 1
   _isDashing: 0
-  _dashSpeed: 18
+  _dashSpeed: 15
   _dasingTime: 0.2
-  _dashingCooldown: 1
+  _dashingCooldown: 5
   _dashShakeDuration: 0.125
-  _dashShakeMagnitude: 0.1
+  _dashShakeMagnitude: 0.05
   _trail: {fileID: 7332086278875413715}
   _camShake: {fileID: 0}
   _gravityForce: -20

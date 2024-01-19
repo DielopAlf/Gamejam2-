@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 namespace VictorRivero{
@@ -19,16 +20,24 @@ namespace VictorRivero{
 		#region Private Fields
 		[Header("Heals")]
 		[SerializeField] private int _heals;
-		#endregion
-		#region Public Fields
-		#endregion
-		#region Lifecycle
-		#endregion
-		#region Public API
-		#endregion
-		#region Unity Methods
-		// Start is called before the first frame update
-		void Start()
+        
+		[Space(3)]
+        [Header("Object Pool")]
+        [SerializeField] private ObjectPool _objectPool;
+
+        [Space(3)]
+        [Header("Offset FloatPoint")]
+        [SerializeField] private Vector3 _offsetFloatPoint;
+        #endregion
+        #region Public Fields
+        #endregion
+        #region Lifecycle
+        #endregion
+        #region Public API
+        #endregion
+        #region Unity Methods
+        // Start is called before the first frame update
+        void Start()
 		{
 			
 		}
@@ -60,8 +69,25 @@ namespace VictorRivero{
 		{
 			if (collision.CompareTag("Player"))
 			{
-				HealthManager.Instance.ModifyHealth(_heals);
-				Destroy(gameObject);
+                GameObject _floatPoint = _objectPool.GetPooledObject();
+                
+				// Imprimimos el valor que deseamos mostrar
+                _floatPoint.GetComponentInChildren<TextMeshProUGUI>().text = "+1";
+
+                // Comprobamos si es null
+                if (_floatPoint != null)
+                {
+                    // En caso de que no lo sea situaremos el objeto en la posicion deseada
+                    _floatPoint.transform.position = transform.position + _offsetFloatPoint;
+                    // Activaremos el objeto
+                    _floatPoint.SetActive(true);
+                }
+
+                // Desactivaremos el GameObject
+                gameObject.SetActive(false);
+                // Modificaremos la Salud
+                HealthManager.Instance.ModifyHealth(_heals);
+				//Destroy(gameObject);
 			}
 		}
 		#endregion

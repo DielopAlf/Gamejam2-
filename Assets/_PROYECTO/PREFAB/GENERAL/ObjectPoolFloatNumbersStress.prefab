@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8664125093515362949}
-  - component: {fileID: 1745237895943164423}
+  - component: {fileID: 2345817412180715765}
   m_Layer: 0
-  m_Name: ObjectPoolFloatNumbers
+  m_Name: ObjectPoolFloatNumbersStress
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1745237895943164423
+--- !u!114 &2345817412180715765
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,9 +41,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8131839887403247601}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e78dde7ab88a87242a7ad075865bb1ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d77ddf134c04b84a83abdce09094533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _pooledObjects: []
-  _amountToPool: 20
+  _amountToPool: 0
   _objectToPool: {fileID: 1460314312336548415, guid: 8d9ebc72783597644b05a92fa48a6e54, type: 3}

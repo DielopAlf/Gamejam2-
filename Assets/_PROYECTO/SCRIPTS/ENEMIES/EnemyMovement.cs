@@ -164,8 +164,6 @@ namespace VictorRivero
                 _currentPoint = _pointB.transform;
                 Flip();
             }
-
-            Debug.Log("Patrullando");
         }
         private void TargetDetected()
         {

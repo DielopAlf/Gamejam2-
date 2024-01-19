@@ -84,6 +84,18 @@ namespace VictorRivero
 
         #endregion
         #region Public Methods
+        public void BackToMainMenu()
+        {
+            Debug.Log("Volviendo al Menu Principal!");
+        }
+        public void NextLevel()
+        {
+            Debug.Log("Siguiente Nivel");
+        }
+        public void RestartLevel()
+        {
+            Debug.Log("Reiniciando Nivel");
+        }
         public void ApplicationQuit()
         {            
             HudManager.Instance.QuitPopUp();            
@@ -101,22 +113,20 @@ namespace VictorRivero
         {
             HudManager.Instance.CancelInvoke();
         }
-
-       
-      
-
         public void GameOver()
         {
             // Puedes realizar acciones específicas de Game Over aquí, como mostrar un panel de Game Over.
             // Después, detén el juego.
             Time.timeScale = 0.0f;
+            HudManager.Instance.FailGame();
         }
-
         public void GameWon()
         {
             // Puedes realizar acciones específicas de Victoria aquí, como mostrar un panel de Victoria.
             // Después, detén el juego.
             Time.timeScale = 0.0f;
+            HudManager.Instance.VictoryScreen();
+            HudManager.Instance.BackToMainMenu();
         }
         #endregion
 

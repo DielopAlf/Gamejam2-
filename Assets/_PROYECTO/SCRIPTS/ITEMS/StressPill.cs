@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 namespace VictorRivero{
@@ -19,16 +20,24 @@ namespace VictorRivero{
 		#region Private Fields
 		[Header("Anti-Stress")]
 		[SerializeField] private float _stress;
-		#endregion
-		#region Public Fields
-		#endregion
-		#region Lifecycle
-		#endregion
-		#region Public API
-		#endregion
-		#region Unity Methods
-		// Start is called before the first frame update
-		void Start()
+
+		[Space(3)]
+		[Header("Object Pool")]
+		[SerializeField] private FloatNumbersObjectPool _objectPool;
+
+        [Space(3)]
+        [Header("Offset FloatPoint")]
+        [SerializeField] private Vector3 _offsetFloatPoint;
+        #endregion
+        #region Public Fields
+        #endregion
+        #region Lifecycle
+        #endregion
+        #region Public API
+        #endregion
+        #region Unity Methods
+        // Start is called before the first frame update
+        void Start()
 		{
 			
 		}
@@ -60,9 +69,24 @@ namespace VictorRivero{
 		{
 			if (collision.CompareTag("Player"))
 			{
-                Debug.Log("Pastilla recogida");
+                GameObject _floatPoint = _objectPool.GetPooledObject();
+                // Imprimimos el valor que deseamos mostrar
+                _floatPoint.GetComponentInChildren<TextMeshProUGUI>().text = "-1";
+
+                // Comprobamos si es null
+                if (_floatPoint != null)
+                {
+                    // En caso de que no lo sea situaremos el objeto en la posicion deseada
+                    _floatPoint.transform.position = transform.position + _offsetFloatPoint;
+                    // Activaremos el objeto
+                    _floatPoint.SetActive(true);
+                }
+
+                // Desactivaremos el GameObject
+                gameObject.SetActive(false);
+                // Modificaremos el Estres
                 StressManager.Instance.LessStress(_stress);
-                Destroy(gameObject);
+                //Destroy(gameObject);
             }
 		}
 		#endregion

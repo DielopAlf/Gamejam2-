@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: 
   enemyPrefab: {fileID: 0}
-  enemyColor: {r: 0.50214577, g: 0, b: 1, a: 1}
+  enemyColor: {r: 0.59293526, g: 0.46057317, b: 0.8490566, a: 1}
   enemyPoints: 3
   enemyHealth: 0
   enemyDamage: 0

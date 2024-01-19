@@ -91,13 +91,13 @@ namespace VictorRivero{
             _curHealth += amount;
             _healthBar.value = _curHealth;
         
-        if (_curHealth <= 0)
+            if (_curHealth <= 0)
             {
                 // La vida llegó a 0, juego perdido
                 GameManager.Instance.GameOver();
             }
         }
-               #endregion
+        #endregion
 
     }
 }

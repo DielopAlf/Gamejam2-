@@ -236,7 +236,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.3, y: 0.5}
+  m_Size: {x: 0.3, y: 0.68}
   m_Direction: 0
 --- !u!114 &8168309926315880718
 MonoBehaviour:
@@ -251,3 +251,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stress: 1
+  _objectPool: {fileID: 0}
+  _offsetFloatPoint: {x: 0, y: 1.25, z: 0}
