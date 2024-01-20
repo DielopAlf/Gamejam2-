@@ -22,11 +22,17 @@ namespace VictorRivero{
         #region Private Fields
         [Header("Slider")]
         [SerializeField] private Slider _healthBar;
+
         [Space(3)]
         [Header("Values")]
         [SerializeField] private int _maxHealth;
         [SerializeField] private int _curHealth;
         [SerializeField] private int _minHealth;
+
+        [Space(3)]
+        [Header("Audio")]
+        [SerializeField] private AudioSource _audioSource;
+        [SerializeField] private AudioClip _damageSound;
         #endregion
         #region Public Fields
         #endregion
@@ -35,9 +41,6 @@ namespace VictorRivero{
         #region Public API
         #endregion
         #region Unity Methods
-        [Header("Audio")]
-        [SerializeField] private AudioSource _audioSource;
-        [SerializeField] private AudioClip _damageSound;
         // Start is called before the first frame update
         void Start()
 		{
@@ -54,6 +57,7 @@ namespace VictorRivero{
             else if (_curHealth < _minHealth)
             {
                 _curHealth = 0;
+                Dead();
             }
         }
 
@@ -86,6 +90,10 @@ namespace VictorRivero{
             _healthBar.maxValue = _maxHealth;
             _healthBar.minValue = _minHealth;
             _healthBar.value = _curHealth;
+        }
+        private void Dead()
+        {
+            GameManager.Instance.GameOver();
         }
         #endregion
         #region Public Methods

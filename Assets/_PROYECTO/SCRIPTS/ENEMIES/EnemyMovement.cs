@@ -61,6 +61,11 @@ namespace VictorRivero
         [SerializeField] private Vector3 _offsetFloatPoint;
 
         [Space(3)]
+        [Header("Audio")]
+        [SerializeField] private AudioSource enemyAudioSource;
+        [SerializeField] private AudioClip enemySoundClip;
+
+        [Space(3)]
         [Header("Control")]
         [SerializeField] private bool _isFacingRight = true;
         #endregion
@@ -72,12 +77,6 @@ namespace VictorRivero
         #region Public API
         #endregion
         #region Unity Methods
-
-        [Header("Audio")]
-        [SerializeField] private AudioSource enemyAudioSource;
-        [SerializeField] private AudioClip enemySoundClip;
-
-
         // Start is called before the first frame update
         void Start()
         {

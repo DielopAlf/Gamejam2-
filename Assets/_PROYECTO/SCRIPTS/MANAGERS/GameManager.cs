@@ -27,6 +27,15 @@ namespace VictorRivero
         [SerializeField] private FinishZone _finishZone;
 
         [Space(3)]
+        [Header("Audio")]
+        [SerializeField] private AudioSource backgroundAudioSource;
+        [SerializeField] private AudioSource victoryAudioSource;
+        [SerializeField] private AudioSource defeatAudioSource;
+        [SerializeField] private AudioClip backgroundSound;
+        [SerializeField] private AudioClip victorySound;
+        [SerializeField] private AudioClip defeatSound;
+
+        [Space(3)]
         [Header("Control")]
         [SerializeField] private bool _victory = false;
         #endregion
@@ -37,14 +46,6 @@ namespace VictorRivero
         #region Public API
         #endregion
         #region Unity Methods
-        [Header("Audio")]
-
-        [SerializeField] private AudioSource backgroundAudioSource;
-        [SerializeField] private AudioSource victoryAudioSource;
-        [SerializeField] private AudioSource defeatAudioSource;
-        [SerializeField] private AudioClip backgroundSound;
-        [SerializeField] private AudioClip victorySound;
-        [SerializeField] private AudioClip defeatSound;
         // Start is called before the first frame update
         void Start()
         {
@@ -99,7 +100,35 @@ namespace VictorRivero
         // LateUpdate is called after all Update functions have been called
         #endregion
         #region Private Methods
-
+        private void PlayBackgroundSound()
+        {
+            if (backgroundAudioSource != null && backgroundSound != null)
+            {
+                backgroundAudioSource.clip = backgroundSound;
+                backgroundAudioSource.Play();
+            }
+        }
+        private void StopBackgroundSound()
+        {
+            if (backgroundAudioSource != null)
+            {
+                backgroundAudioSource.Stop();
+            }
+        }
+        private void PlayVictorySound()
+        {
+            if (victoryAudioSource != null && victorySound != null)
+            {
+                victoryAudioSource.PlayOneShot(victorySound);
+            }
+        }
+        private void PlayDefeatSound()
+        {
+            if (defeatAudioSource != null && defeatSound != null)
+            {
+                defeatAudioSource.PlayOneShot(defeatSound);
+            }
+        }
         #endregion
         #region Public Methods
         public void BackToMainMenu()
@@ -142,7 +171,8 @@ namespace VictorRivero
 
 
         }
-          public void GameWon() {
+        public void GameWon()
+        {
             Time.timeScale = 0.0f;
             HudManager.Instance.VictoryScreen();
             HudManager.Instance.BackToMainMenu();
@@ -151,33 +181,6 @@ namespace VictorRivero
             StopBackgroundSound();
             PlayVictorySound();
         }
-
-        private void PlayBackgroundSound() {
-            if (backgroundAudioSource != null && backgroundSound != null) {
-                backgroundAudioSource.clip = backgroundSound;
-                backgroundAudioSource.Play();
-            }
-        }
-
-        private void StopBackgroundSound() {
-            if (backgroundAudioSource != null) {
-                backgroundAudioSource.Stop();
-            }
-        }
-
-        private void PlayVictorySound() {
-            if (victoryAudioSource != null && victorySound != null) {
-                victoryAudioSource.PlayOneShot(victorySound);
-            }
-        }
-
-        private void PlayDefeatSound() {
-            if (defeatAudioSource != null && defeatSound != null) {
-                defeatAudioSource.PlayOneShot(defeatSound);
-            }
-        }
-         
-
         #endregion
 
     }

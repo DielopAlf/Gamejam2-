@@ -22,12 +22,14 @@ namespace VictorRivero{
         #region Private Fields
         [Header("Slider")]
         [SerializeField] private Slider _stressBar;
+
         [Space(3)]
         [Header("Values")]
         [SerializeField] private float _maxStress = 100.0f;
         [SerializeField] private float _curStress = 0.0f;
         [SerializeField] private float _stressGain;
         [SerializeField] private float _stressLess;
+
         [Space(3)]
         [Header("Timer")]
         [SerializeField] private float _timer;
@@ -36,8 +38,14 @@ namespace VictorRivero{
         [SerializeField] private float _timeStress;
         [SerializeField] private float _timeExplote;
         [SerializeField] private float _timeToExplote;
+
+        [Space(3)]
+        [Header("Audio")]
+        [SerializeField] private AudioSource _audioSource;
+        [SerializeField] private AudioClip _stressDamageSound;
         #endregion
         #region Public Fields
+
         #endregion
         #region Lifecycle
         #endregion
@@ -45,9 +53,7 @@ namespace VictorRivero{
         #endregion
         #region Unity Methods
 
-        [Header("Audio")]
-        [SerializeField] private AudioSource _audioSource;
-        [SerializeField] private AudioClip _stressDamageSound;
+
 
         // Start is called before the first frame update
         void Start()
@@ -56,7 +62,7 @@ namespace VictorRivero{
             _stressBar.value = _curStress;
             _stressBar.minValue = 0.0f;
         }
-
+        
 		// Update is called once per frame
 		void Update()
 		{
@@ -91,8 +97,10 @@ namespace VictorRivero{
                 if (_timeExplote > _timeToExplote)
                 {
                     ExplotionPower.Instance.Explote = true;
-                    //ExplotionPower.Instance.Explotion();
+                    
+                    //Utilizando IEnumerator
                     StartCoroutine(ExplotionPower.Instance.ExploteBehaviour());
+                    
                     _timeExplote = 0.0f;
                 }
             }
@@ -124,6 +132,10 @@ namespace VictorRivero{
         private void GainStressByTime()
         {
             _curStress += _stressGain;
+        }
+        private void HandleExplotionMovement()
+        {
+            ExplotionPower.Instance.TriggerEvent();
         }
         #endregion
         #region Public Methods

@@ -40,6 +40,8 @@ namespace VictorRivero{
 		[SerializeField] private float _power;
 		#endregion
 		#region Public Fields
+		public delegate void RandomMovementEvent();
+		public static event RandomMovementEvent OnRandomMovement;
 		public bool Explote { get { return _explote; } set { _explote = value; } }
 		#endregion
 		#region Lifecycle
@@ -79,6 +81,21 @@ namespace VictorRivero{
 		// LateUpdate is called after all Update functions have been called
 		#endregion
 		#region Private Methods
+		private void MoveRandomDirection()
+		{
+			if (_explote)
+			{
+                float x = Random.Range(-5.0f, 5.0f);
+                float y = Random.Range(2.0f, 5.0f);
+
+                Vector2 randomDirection = new Vector2(x, y).normalized;
+                _rb.velocity = randomDirection * _power;
+            }
+		}
+		private void TriggerRandomMovementEvent()
+		{
+			OnRandomMovement?.Invoke();
+		}
 		#endregion            
 		#region Public Methods
 		public void Explotion()
@@ -93,17 +110,26 @@ namespace VictorRivero{
                 _explote = false;
 			}
 		}
+		public void TriggerEvent()
+		{
+			InvokeRepeating("MoveRandomDirection", 0f, _timeNextExplotion);
+        }
         #endregion
         #region IEnumerators
 		public IEnumerator ExploteBehaviour()
 		{
-            float x = Random.Range(-6, 6);
-            float y = Random.Range(2, 5);
+            //MoveRandomDirection();
+            float x = Random.Range(-5.0f, 5.0f);
+            float y = Random.Range(2.0f, 5.0f);
 
-            _explotionPos = new Vector2(x, y);
-            _rb.velocity = _explotionPos * _power;
-			yield return new WaitForSeconds(_timeNextExplotion);
-		}
+            Vector2 randomDirection = new Vector2(x, y).normalized;
+			_explotionPos = randomDirection * _power;
+            _rb.velocity = _explotionPos;
+			_explote = false;
+            yield return new WaitForSeconds(_timeNextExplotion);
+            /*_explote = false;
+            yield return null;*/
+        }
         #endregion
     }
 }

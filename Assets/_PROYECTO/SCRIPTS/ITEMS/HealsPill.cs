@@ -28,6 +28,11 @@ namespace VictorRivero{
         [Space(3)]
         [Header("Offset FloatPoint")]
         [SerializeField] private Vector3 _offsetFloatPoint;
+		
+		[Space(3)]
+        [Header("Audio")]
+        [SerializeField] private AudioSource pickupAudioSource;
+        [SerializeField] private AudioClip pickupSound;
         #endregion
         #region Public Fields
         #endregion
@@ -37,10 +42,6 @@ namespace VictorRivero{
         #endregion
         #region Unity Methods
         // Start is called before the first frame update
-		[Header("Audio")]
-        [SerializeField] private AudioSource pickupAudioSource;
-        [SerializeField] private AudioClip pickupSound;
-
         void Start()
 		{
 			
