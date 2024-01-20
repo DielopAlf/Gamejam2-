@@ -45,13 +45,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stressBar: {fileID: 0}
-  _maxStress: 100
+  _maxStress: 20
   _curStress: 0
   _stressGain: 1
   _stressLess: 1
   _timer: 0
   _timerLessHealth: 0
-  _timeToLess: 15
+  _timeToLess: 5
   _timeStress: 3
+  _timeExplote: 0
+  _timeToExplote: 5
   _audioSource: {fileID: 0}
   _stressDamageSound: {fileID: 8300000, guid: d9784e3fafea940408e91f9f437e7f96, type: 3}

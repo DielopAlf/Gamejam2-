@@ -2455,14 +2455,6 @@ PrefabInstance:
       value: StressManager
       objectReference: {fileID: 0}
     - target: {fileID: 4734903597411046750, guid: 84fc054b865e12c4caf557d10bd7aa79, type: 3}
-      propertyPath: _curStress
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734903597411046750, guid: 84fc054b865e12c4caf557d10bd7aa79, type: 3}
-      propertyPath: _maxStress
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734903597411046750, guid: 84fc054b865e12c4caf557d10bd7aa79, type: 3}
       propertyPath: _stressBar
       value: 
       objectReference: {fileID: 557697144}
@@ -2470,10 +2462,6 @@ PrefabInstance:
       propertyPath: _audioSource
       value: 
       objectReference: {fileID: 1749035407}
-    - target: {fileID: 4734903597411046750, guid: 84fc054b865e12c4caf557d10bd7aa79, type: 3}
-      propertyPath: _timeToExplote
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 9041322645752147301, guid: 84fc054b865e12c4caf557d10bd7aa79, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4622,7 +4610,7 @@ MonoBehaviour:
   _rb: {fileID: 1928411621}
   _timeNextExplotion: 5
   _explote: 0
-  _power: 3
+  _power: 12.5
 --- !u!50 &1928411621 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 8481859451467785880, guid: 6ada1b6ad8248094fa2894fe6f9d7770, type: 3}
