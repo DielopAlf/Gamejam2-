@@ -245,6 +245,11 @@ namespace VictorRivero{
                 _rb.gravityScale = 1.0f;
             }
         }
+
+		public void Explotion(Vector2 explotionPos)
+		{
+			
+		}
 		#endregion
 	}
 }

@@ -34,6 +34,8 @@ namespace VictorRivero{
         [SerializeField] private float _timerLessHealth;
         [SerializeField] private float _timeToLess;
         [SerializeField] private float _timeStress;
+        [SerializeField] private float _timeExplote;
+        [SerializeField] private float _timeToExplote;
         #endregion
         #region Public Fields
         #endregion
@@ -82,6 +84,18 @@ namespace VictorRivero{
                 _curStress = _maxStress;
             }
 
+            if (_curStress >= (_maxStress/2))
+            {
+                _timeExplote += Time.deltaTime;
+
+                if (_timeExplote > _timeToExplote)
+                {
+                    ExplotionPower.Instance.Explote = true;
+                    //ExplotionPower.Instance.Explotion();
+                    StartCoroutine(ExplotionPower.Instance.ExploteBehaviour());
+                    _timeExplote = 0.0f;
+                }
+            }
             
         }
 
