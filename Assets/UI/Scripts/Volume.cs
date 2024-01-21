@@ -29,11 +29,11 @@ public class ChangeVolume : MonoBehaviour
 
     public void Update()
     {
-        master.audioMixer.SetFloat("Master", Mathf.Log10(masterSlider.value) * 20);
+        master.audioMixer.SetFloat("Master", Mathf.Log10(masterSlider.value + 0.01f) * 20);
 
-        ambienceMixerGroup.audioMixer.SetFloat("Background", Mathf.Log10(ambienceSlider.value) * 20);
+        ambienceMixerGroup.audioMixer.SetFloat("Background", Mathf.Log10(ambienceSlider.value + 0.01f) * 20);
 
-        effectsMixerGroup.audioMixer.SetFloat("Effects", Mathf.Log10(effectsSlider.value) * 20);
+        effectsMixerGroup.audioMixer.SetFloat("Effects", Mathf.Log10(effectsSlider.value + 0.01f) * 20);
     }
 
     public void LoadVolume()

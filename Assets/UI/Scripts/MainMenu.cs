@@ -8,6 +8,9 @@ public class MainMenu : MonoBehaviour
 {
     #region VARIABLES
 
+    [Header("Canvas")]
+    [SerializeField] private GameObject canvas;
+
     [Header("Background")]
     [SerializeField] private GameObject background;
 
@@ -42,6 +45,7 @@ public class MainMenu : MonoBehaviour
 
     private void Start()
     {
+        canvas.SetActive(true);
         background.SetActive(true);
         toolbar.SetActive(true);
         windowsTab.SetActive(false);
@@ -55,11 +59,6 @@ public class MainMenu : MonoBehaviour
         controlsPressed = false;
         creditsPressed = false;
         configurationPressed = false;
-    }
-
-    private void Update()
-    {
-
     }
 
     #region BUTTONS
