@@ -26,11 +26,15 @@ public class MainMenu : MonoBehaviour
     [Header("Credits")]
     [SerializeField] private GameObject credits;
 
+    [Header("Configuration")]
+    [SerializeField] private GameObject configuration;
+
     [Header("Bools")]
     [SerializeField] private bool startPressed;
     [SerializeField] private bool playPressed;
     [SerializeField] private bool controlsPressed;
     [SerializeField] private bool creditsPressed;
+    [SerializeField] private bool configurationPressed;
 
     #endregion
 
@@ -44,11 +48,13 @@ public class MainMenu : MonoBehaviour
         levelSelection.SetActive(false);
         controls.SetActive(false);
         credits.SetActive(false);
+        configuration.SetActive(false);
 
         startPressed = false;
         playPressed = false;
         controlsPressed = false;
         creditsPressed = false;
+        configurationPressed = false;
     }
 
     private void Update()
@@ -76,8 +82,10 @@ public class MainMenu : MonoBehaviour
     {
         controls.SetActive(false);
         credits.SetActive(false);
+        configuration.SetActive(false);
         controlsPressed = false;
         creditsPressed = false;
+        configurationPressed = false;
 
         if (playPressed)
         {
@@ -95,8 +103,10 @@ public class MainMenu : MonoBehaviour
     {
         levelSelection.SetActive(false);
         credits.SetActive(false);
+        configuration.SetActive(false);
         playPressed = false;
         creditsPressed = false;
+        configurationPressed = false;
 
         if (controlsPressed)
         {
@@ -114,8 +124,10 @@ public class MainMenu : MonoBehaviour
     {
         levelSelection.SetActive(false);
         controls.SetActive(false);
+        configuration.SetActive(false);
         playPressed = false;
         controlsPressed = false;
+        configurationPressed = false;
 
         if (creditsPressed)
         {
@@ -126,6 +138,27 @@ public class MainMenu : MonoBehaviour
         {
             credits.SetActive(true);
             creditsPressed = true;
+        }
+    }
+
+    public void ConfigurationButton()
+    {
+        levelSelection.SetActive(false);
+        controls.SetActive(false);
+        credits.SetActive(false);
+        playPressed = false;
+        controlsPressed = false;
+        creditsPressed = false;
+
+        if (configurationPressed)
+        {
+            configuration.SetActive(false);
+            configurationPressed = false;
+        }
+        else
+        {
+            configuration.SetActive(true);
+            configurationPressed = true;
         }
     }
 
