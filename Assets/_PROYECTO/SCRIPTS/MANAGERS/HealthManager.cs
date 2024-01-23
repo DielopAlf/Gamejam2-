@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace VictorRivero{
 
@@ -22,6 +23,8 @@ namespace VictorRivero{
         #region Private Fields
         [Header("Slider")]
         [SerializeField] private Slider _healthBar;
+        [Header("Text")]
+        [SerializeField] private TextMeshProUGUI _text;
 
         [Space(3)]
         [Header("Values")]
@@ -87,9 +90,7 @@ namespace VictorRivero{
         {
             _curHealth = _maxHealth;
 
-            _healthBar.maxValue = _maxHealth;
-            _healthBar.minValue = _minHealth;
-            _healthBar.value = _curHealth;
+            _text.text = "X" + _curHealth.ToString().PadLeft(2, '0');
         }
         private void Dead()
         {
@@ -100,8 +101,8 @@ namespace VictorRivero{
         public void ModifyHealth(int amount)
         {
             _curHealth += amount;
-            _healthBar.value = _curHealth;
-        
+            _text.text = "X" + _curHealth.ToString().PadLeft(2, '0');
+
             if (_curHealth <= 0)
             {
                 // La vida llegó a 0, juego perdido
